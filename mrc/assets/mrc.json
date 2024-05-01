@@ -1,0 +1,2704 @@
+ {
+  "homeCamera": {
+    "north": 22,
+    "south": 10,
+    "west": 100,
+    "east": 105
+  },
+  "catalog": [
+    {
+      "id": "Root Group/Lower Mekong Basin Atlas",
+      "type": "group",
+      "name": "Lower Mekong Basin Atlas",
+      "members": [
+        {
+          "id": "Mekong Basin Atlas/Baseline Data",
+          "shareKeys": [
+            "Mekong Basin Atlas/Baseline Data"
+          ],
+          "type": "group",
+          "name": "Baseline Data",
+        
+          "members": [
+            {
+              "id": "Mekong Basin Atlas/Baseline Data/Admin.Boundary",
+              "shareKeys": [
+                "Mekong Basin Atlas/Baseline Data/Admin.Boundary"
+              ],
+              "type": "group",
+              "name": "Admin.Boundary",
+             
+              "members": [
+                {
+                  "id": "Mekong Basin Atlas/Baseline Data/LMB Boundary",
+                  "shareKeys": [
+                    "Mekong Basin Atlas/Baseline Data/LMB Boundary"
+                  ],
+                  "type": "wms",
+                  "name": "LMB Boundary",
+                  "url": "https://geo.mrcmekong.org/geo/mrc/wms",
+                  "layers": "mrc:LMB",
+                  "opacity": 1,
+                  "info": [
+                    {
+                      "name": "Description",
+                      "content": "The boundary of Lower Mekong Basin which cover Cambodia, Lao PDR, Thailand, and Vietnam"
+                    },
+                    {
+                      "name": "Dataset reference date",
+                      "content": "Year 2000"
+                    },
+                    {
+                      "name": "PDIES category",
+                      "content": "Administrative boundaries"
+                    },
+                    {
+                      "name": "Disclaimer",
+                      "content": "The Mekong River Commission makes no warranties about the data deliniated and disclaims all responsibility and reliability for all expences, losses, damages and costs which maybe incurred as a result of the data being inaccurate or incomplete in any way and for any reason.<p>The data contained herein do not imply the expression of any opinion whatsoever on the part of the Mekong River Commission concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delineation of its frontiers or boundaries.</p>"
+                    },
+                    {
+                      "name": "Access and acknowledgements",
+                      "content": "Refernce documents: https://www.mrcmekong.org/assets/Publications/basin-reports/BDP-Atlas-Final-2011.pdf"
+                    },
+                    {
+                      "name": "Data source",
+                      "content": " MRC Planning Atlas 2011"
+                    }
+                  ],
+                  "infoSectionOrder": [
+                    "Description",
+                    "Dataset reference date",
+                    "PDIES category",
+                    "Disclaimer",
+                    "Access and acknowledgements",
+                    "Data source"
+                  ]
+                },
+                {
+                  "id": "Mekong Basin Atlas/Baseline Data/LMB Country Boundary",
+                  "shareKeys": [
+                    "Mekong Basin Atlas/Baseline Data/LMB Country Boundary"
+                  ],
+                  "name": "LMB Country Boundary",
+                  "type": "wms",
+                  "url": "https://geo.mrcmekong.org/geo/mrc/wms",
+                  "layers": "mrc:Adm0_LMB",
+                  "opacity": 1,
+                  "info": [
+                    {
+                      "name": "Description",
+                      "content": "The country boundary of Cambodia, Lao PDR, Thailand, and Vietnam with in only Mekong Basin Boundary"
+                    },
+                    {
+                      "name": "Dataset reference date",
+                      "content": "Year 2000"
+                    },
+                    {
+                        "name": "PDIES category",
+                        "content": "Administrative boundaries"
+                    },
+                    {
+                      "name": "Disclaimer",
+                      "content": "The Mekong River Commission makes no warranties about the data deliniated and disclaims all responsibility and reliability for all expences, losses, damages and costs which maybe incurred as a result of the data being inaccurate or incomplete in any way and for any reason.<p>The data contained herein do not imply the expression of any opinion whatsoever on the part of the Mekong River Commission concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delineation of its frontiers or boundaries.</p>"
+                    },
+                    {
+                      "name": "Access and acknowledgements",
+                      "content": "Refernce documents: https://www.mrcmekong.org/assets/Publications/basin-reports/BDP-Atlas-Final-2011.pdf"
+                    },
+                    {
+                      "name": "Data source",
+                      "content": " MRC Planning Atlas 2011"
+                    }
+                  ],
+                  "infoSectionOrder": [
+                    "Description",
+                    "Dataset reference date",
+                    "PDIES category",
+                    "Disclaimer",
+                    "Access and acknowledgements",
+                    "Data source"
+                  ]
+                },
+                {
+                  "id": "Mekong Basin Atlas/Baseline Data/LMB Province Boundary",
+                  "shareKeys": [
+                    "Mekong Basin Atlas/Baseline Data/LMB Province Boundary"
+                  ],
+                  "name": "LMB Province Boundary",
+                  "type": "wms",
+                  "url": "https://geo.mrcmekong.org/geo/mrc/wms",
+                  "layers": "mrc:Adm1_LMB",
+                  "opacity": 1,
+                  "info": [
+                    {
+                      "name": "Description",
+                      "content": "The provincial boundary of Cambodia, Lao PDR, Thailand, and Vietnam only within Lower Mekong Basin, the dataset was shared from the member countries via line agencies and updated since 2021"
+                    },
+                    {
+                      "name": "Dataset reference date",
+                      "content": "Year 2021"
+                    },
+                    {
+                        "name": "PDIES category",
+                        "content": "Administrative boundaries"
+                    },
+                    {
+                      "name": "Disclaimer",
+                      "content": "The Mekong River Commission makes no warranties about the data deliniated and disclaims all responsibility and reliability for all expences, losses, damages and costs which maybe incurred as a result of the data being inaccurate or incomplete in any way and for any reason.<p>The data contained herein do not imply the expression of any opinion whatsoever on the part of the Mekong River Commission concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delineation of its frontiers or boundaries.</p>"
+                    },
+                    {
+                      "name": "Access and acknowledgements",
+                      "content": "The data acknowledge to National Mekong Committee for all member countries"
+                    },
+                    {
+                      "name": "Data source",
+                      "content": "National Mekong Committee"
+                    }
+                  ],
+                  "infoSectionOrder": [
+                    "Description",
+                    "Dataset reference date",
+                    "PDIES category",
+                    "Disclaimer",
+                    "Access and acknowledgements",
+                    "Data source"
+                  ]
+                },
+                {
+                  "id": "Mekong Basin Atlas/Baseline Data/LMB District Boundary",
+                  "shareKeys": [
+                    "Mekong Basin Atlas/Baseline Data/LMB District Boundary"
+                  ],
+                  "name": "LMB District Boundary",
+                  "type": "wms",
+                  "url": "https://geo.mrcmekong.org/geo/mrc/wms",
+                  "layers": "mrc:Adm2_LMB",
+                  "opacity": 1,
+                  "info": [
+                    {
+                      "name": "Description",
+                      "content": "The district boundary of Cambodia, Lao PDR, Thailand, and Vietnam only within Lower Mekong Basin, the dataset was shared from the member countries via line agencies and updated since 2021"
+                    },
+                    {
+                      "name": "Dataset reference date",
+                      "content": "Year 2021"
+                    },
+                    {
+                        "name": "PDIES category",
+                        "content": "Administrative boundaries"
+                    },
+                    {
+                      "name": "Disclaimer",
+                      "content": "The Mekong River Commission makes no warranties about the data deliniated and disclaims all responsibility and reliability for all expences, losses, damages and costs which maybe incurred as a result of the data being inaccurate or incomplete in any way and for any reason.<p>The data contained herein do not imply the expression of any opinion whatsoever on the part of the Mekong River Commission concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delineation of its frontiers or boundaries.</p>"
+                    },
+                    {
+                      "name": "Access and acknowledgements",
+                      "content": "The data acknowledge to National Mekong Committee for all member countries"
+                    },
+                    {
+                      "name": "Data source",
+                      "content": "National Mekong Committee"
+                    }
+                  ],
+                  "infoSectionOrder": [
+                    "Description",
+                    "Dataset reference date",
+                    "PDIES category",
+                    "Disclaimer",
+                    "Access and acknowledgements",
+                    "Data source"
+                  ]
+                }
+              ],
+              "isOpen": false
+            },
+           {
+              "id": "Mekong Basin Atlas/Baseline Data/Navigation & Transport",
+              "shareKeys": [
+                "Mekong Basin Atlas/Baseline Data/Navigation & Transport"
+              ],
+              "type": "group",
+              "name": "Navigation & Transport",
+          
+              "members": [
+                {
+                  "id": "Mekong Basin Atlas/Baseline Data/Navigation & Transport/Major Inland Ports",
+                  "shareKeys": [
+                    "Mekong Basin Atlas/Baseline Data/Navigation & Transport/Major Inland Ports"
+                  ],
+                  "name": "Major Inland Ports",
+                  "type": "wms",
+                  "url": "https://geo.mrcmekong.org/geo/mrc/wms",
+                  "layers": "mrc:LMB_Ports_2023",
+                  "opacity": 1,
+                  "info": [
+                    {
+                      "name": "Description",
+                      "content": "Mekong major inland ports from Luang Namtha in Lao PDR to Delta in Vietnam in Mekong countries."
+                    },
+                    {
+                      "name": "Dataset reference date",
+                      "content": "June 2015 and updated by RFDMC"
+                    },
+                    {
+                      "name": "PDIES category",
+                      "content": "Navigation and Transport"
+                    },
+                    {
+                      "name": "Disclaimer",
+                      "content": "The Mekong River Commission makes no warranties about the data deliniated and disclaims all responsibility and reliability for all expences, losses, damages and costs which maybe incurred as a result of the data being inaccurate or incomplete in any way and for any reason.<p>The data contained herein do not imply the expression of any opinion whatsoever on the part of the Mekong River Commission concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delineation of its frontiers or boundaries.</p>"
+                    },
+                    {
+                      "name": "Access and acknowledgements",
+                      "content": "This data was updated RFDMC me and guided by Navigation Expert attached to Navigation Program (MRCS)"
+                    },
+                    {
+                      "name": "Data source",
+                      "content": "The data was updated from existing MRCS dataset (b-ports) accordingly guided to editing by Navigation Expert Navigation Program (MRCS) in 2015"
+                    }
+                  ],
+                  "infoSectionOrder": [
+                    "Description",
+                    "Dataset reference date",
+                    "PDIES category",
+                    "Disclaimer",
+                    "Access and acknowledgements",
+                    "Data source"
+                  ]
+                },
+                {
+                  "id": "Mekong Basin Atlas/Baseline Data/Navigation & Transport/Vassel Size",
+                  "shareKeys": [
+                    "Mekong Basin Atlas/Baseline Data/Navigation & Transport/Vassel Size"
+                  ],
+                  "name": "Navigation Vessel Size",
+                  "type": "wms",
+                  "url": "https://geo.mrcmekong.org/geo/mrc/wms",
+                  "layers": "mrc:Navigation_Vessel_size",
+                  "opacity": 1,
+                  "info": [
+                    {
+                      "name": "Description",
+                      "content": "Classified vessel size for navigation based on water level in both high and low seasons. This information help the users to plan their investment, business plans."
+                    },
+                    {
+                      "name": "Dataset reference date",
+                      "content": "December 2019"
+                    },
+                    {
+                      "name": "PDIES category",
+                      "content": "Navigation and Transport"
+                    },
+                    {
+                      "name": "Disclaimer",
+                      "content": "The Mekong River Commission makes no warranties about the data deliniated and disclaims all responsibility and reliability for all expences, losses, damages and costs which maybe incurred as a result of the data being inaccurate or incomplete in any way and for any reason.<p>The data contained herein do not imply the expression of any opinion whatsoever on the part of the Mekong River Commission concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delineation of its frontiers or boundaries.</p>"
+                    },
+                    {
+                      "name": "Access and acknowledgements",
+                      "content": "MRCS staff, International Consultants Team and National Experts in the MRC Member Countries listed in the Master Plan for Regional Waterborne Transport in the Mekong River Basin<p>MRCS staff, International Consultants Team and National Experts in the MRC Member Countries listed the report of Standardization of a vessel and waterway classification in the Mekong River Basin.</p>"
+                    },
+                    {
+                      "name": "Data source",
+                      "content": "Master Plan for Regional Waterborne Transport in the Mekong River Basin, December 2015 (MRC home page/Publication/Water transportation)<p>Standardization of a vessel and waterway classification in the Mekong River Basin, February 2021 (MRCS share drive/Planning Division/Navigation)</p>"
+                    }
+                  ],
+                  "infoSectionOrder": [
+                    "Description",
+                    "Dataset reference date",
+                    "PDIES category",
+                    "Disclaimer",
+                    "Access and acknowledgements",
+                    "Data source"
+                  ]
+                },
+                {
+                  "id": "Mekong Basin Atlas/Baseline Data/Navigation & Transport/Road",
+                  "shareKeys": [
+                    "Mekong Basin Atlas/Baseline Data/Navigation & Transport/Road"
+                  ],
+                  "name": "Road",
+                  "type": "wms",
+                  "url": "https://geo.mrcmekong.org/geo/mrc/wms",
+                  "layers": "mrc:Road",
+                  "opacity": 1,
+                  "info": [
+                    {
+                      "name": "Description",
+                      "content": "Updated road network based on MRC BDP Atlas 2011 along with the open source data on Open Street Map (OSM)."
+                    },
+                    {
+                      "name": "Dataset reference date",
+                      "content": "December 2022"
+                    },
+                    {
+                      "name": "PDIES category",
+                      "content": "Navigation and Transport"
+                    },
+                    {
+                      "name": "Disclaimer",
+                      "content": "The Mekong River Commission makes no warranties about the data deliniated and disclaims all responsibility and reliability for all expences, losses, damages and costs which maybe incurred as a result of the data being inaccurate or incomplete in any way and for any reason.<p>The data contained herein do not imply the expression of any opinion whatsoever on the part of the Mekong River Commission concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delineation of its frontiers or boundaries.</p>"
+                    },
+                    {
+                      "name": "Access and acknowledgements",
+                      "content": "Technical Support Division, MRCS"
+                    },
+                    {
+                      "name": "Data source",
+                      "content": "MRC BDP Planning Atlas 2011 & OSM"
+                    }
+                  ],
+                  "infoSectionOrder": [
+                    "Description",
+                    "Dataset reference date",
+                    "PDIES category",
+                    "Disclaimer",
+                    "Access and acknowledgements",
+                    "Data source"
+                  ]
+                },
+                {
+                  "id": "Mekong Basin Atlas/Baseline Data/Navigation & Transport/Bridge",
+                  "shareKeys": [
+                    "Mekong Basin Atlas/Baseline Data/Navigation & Transport/Bridge"
+                  ],
+                  "name": "Bridge",
+                  "type": "wms",
+                  "url": "https://geo.mrcmekong.org/geo/mrc/wms",
+                  "layers": "mrc:Bridge",
+                  "opacity": 1,
+                  "info": [
+                    {
+                      "name": "Description",
+                      "content": "Updated location of bridge along the Mekong river based on MRC BDP Atlas 2011 along with the open source data on Open Street Map (OSM) and google map."
+                    },
+                    {
+                      "name": "Dataset reference date",
+                      "content": "December 2022"
+                    },
+                    {
+                      "name": "PDIES category",
+                      "content": "Navigation and Transport"
+                    },
+                    {
+                      "name": "Disclaimer",
+                      "content": "The Mekong River Commission makes no warranties about the data deliniated and disclaims all responsibility and reliability for all expences, losses, damages and costs which maybe incurred as a result of the data being inaccurate or incomplete in any way and for any reason.<p>The data contained herein do not imply the expression of any opinion whatsoever on the part of the Mekong River Commission concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delineation of its frontiers or boundaries.</p>"
+                    },
+                    {
+                      "name": "Access and acknowledgements",
+                      "content": "Technical Support Division, MRCS"
+                    },
+                    {
+                      "name": "Data source",
+                      "content": "MRC BDP Planning Atlas 2011 <p>Open Street Map (OSM)</p><p>Google map</p>"
+                    }
+                  ],
+                  "infoSectionOrder": [
+                    "Description",
+                    "Dataset reference date",
+                    "PDIES category",
+                    "Disclaimer",
+                    "Access and acknowledgements",
+                    "Data source"
+                  ]
+                }
+
+              ],
+              "isOpen": false
+            },
+            {
+              "id": "Mekong Basin Atlas/Baseline Data/Catchment",
+              "shareKeys": [
+                "Mekong Basin Atlas/Baseline Data/Catchment"
+              ],
+              "name": "Catchment",
+              "type": "wms",
+              "url": "https://geo.mrcmekong.org/geo/mrc/wms",
+              "layers": "mrc:Catchment",
+              "opacity": 1,
+              "info": [
+                {
+                  "name": "Description",
+                  "content": "Catchment area of Lower Mekong Basin"
+                },
+                {
+                  "name": "Dataset reference date",
+                  "content": "Year 2011"
+                },
+                {
+                    "name": "PDIES category",
+                    "content": "Administrative boundaries"
+                  },
+                {
+                  "name": "Disclaimer",
+                  "content": "The Mekong River Commission makes no warranties about the data deliniated and disclaims all responsibility and reliability for all expences, losses, damages and costs which maybe incurred as a result of the data being inaccurate or incomplete in any way and for any reason.<p>The data contained herein do not imply the expression of any opinion whatsoever on the part of the Mekong River Commission concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delineation of its frontiers or boundaries.</p>"
+                },
+                {
+                  "name": "Access and acknowledgements",
+                  "content": "Refernce documents: https://www.mrcmekong.org/assets/Publications/basin-reports/BDP-Atlas-Final-2011.pdf"
+                },
+                {
+                  "name": "Data source",
+                  "content": " MRC Planning Atlas 2011"
+                }
+              ],
+              "infoSectionOrder": [
+                "Description",
+                "Dataset reference date",
+                "PDIES category",
+                "Disclaimer",
+                "Access and acknowledgements",
+                "Data source"
+              ]
+            },
+            {
+              "id": "Mekong Basin Atlas/Baseline Data/SubArea",
+              "shareKeys": [
+                "Mekong Basin Atlas/Baseline Data/SubArea"
+              ],
+              "name": "Sub-Areas",
+              "type": "wms",
+              "url": "https://geo.mrcmekong.org/geo/mrc/wms",
+              "layers": "mrc:SubArea",
+              "opacity": 1,
+              "info": [
+                {
+                  "name": "Description",
+                  "content": "Sub-area is the clusters of the sub-basins of Lower Mekong Basin. The sub-areas were defined by the Basin Development Plan Programme of the Mekong River Commission in 2002 for the purpose of aiding basin development planning."
+                },
+                {
+                  "name": "Dataset reference date",
+                  "content": "November 2009"
+                },
+                {
+                    "name": "PDIES category",
+                    "content": "Administrative boundaries"
+                  },
+                {
+                  "name": "Disclaimer",
+                  "content": "The Mekong River Commission makes no warranties about the data deliniated and disclaims all responsibility and reliability for all expences, losses, damages and costs which maybe incurred as a result of the data being inaccurate or incomplete in any way and for any reason.<p>The data contained herein do not imply the expression of any opinion whatsoever on the part of the Mekong River Commission concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delineation of its frontiers or boundaries.</p>"
+                },
+                {
+                  "name": "Access and acknowledgements",
+                  "content": "Refernce documents: https://www.mrcmekong.org/assets/Publications/basin-reports/BDP-Atlas-Final-2011.pdf"
+                },
+                {
+                  "name": "Data source",
+                  "content": " MRC Planning Atlas 2011"
+                }
+              ],
+              "infoSectionOrder": [
+                "Description",
+                "Dataset reference date",
+                "PDIES category",
+                "Disclaimer",
+                "Access and acknowledgements",
+                "Data source"
+              ]
+            },
+            {
+              "id": "Mekong Basin Atlas/Baseline Data/Soil",
+              "shareKeys": [
+                "Mekong Basin Atlas/Baseline Data/Soil"
+              ],
+              "name": "Soil",
+              "type": "wms",
+              "url": "https://geo.mrcmekong.org/geo/mrc/wms",
+              "layers": "mrc:Soil",
+              "opacity": 1,
+              "info": [
+                {
+                  "name": "Description",
+                  "content": "The layer illustrates the distribution of major soil types in the LMB and has been compiled by the MRC from soil classification maps of the four lower Mekong countries. The soil classification follows the international standard taxonomic soil classification system: the World Reference Base for Soil Resources (WRB) first developed in 1998 (IUSS Working Group WRB 2006)."
+                },
+                {
+                  "name": "Dataset reference date",
+                  "content": "June 2002"
+                },
+                {
+                    "name": "PDIES category",
+                    "content": "Natural resources"
+                  },
+                {
+                  "name": "Disclaimer",
+                  "content": "The Mekong River Commission makes no warranties about the data deliniated and disclaims all responsibility and reliability for all expences, losses, damages and costs which maybe incurred as a result of the data being inaccurate or incomplete in any way and for any reason.<p>The data contained herein do not imply the expression of any opinion whatsoever on the part of the Mekong River Commission concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delineation of its frontiers or boundaries.</p>"
+                },
+                {
+                  "name": "Access and acknowledgements",
+                  "content": "Refernce documents: https://www.mrcmekong.org/assets/Publications/basin-reports/BDP-Atlas-Final-2011.pdf"
+                },
+                {
+                  "name": "Data source",
+                  "content": " MRC Planning Atlas 2011"
+                }
+              ],
+              "infoSectionOrder": [
+                "Description",
+                "Dataset reference date",
+                "PDIES category",
+                "Disclaimer",
+                "Access and acknowledgements",
+                "Data source"
+              ]
+            },
+            {
+              "id": "Mekong Basin Atlas/Baseline Data/Mekong River",
+              "shareKeys": [
+                "Mekong Basin Atlas/Baseline Data/Mekong River"
+              ],
+              "name": "Mekong River",
+              "type": "wms",
+              "url": "https://geo.mrcmekong.org/geo/mrc/wms",
+              "layers": "mrc:River_Mekong",
+              "opacity": 1,
+              "info": [
+                {
+                  "name": "Description",
+                  "content": "Mekong river only part in Lower Mekong Basin"
+                },
+                {
+                  "name": "Dataset reference date",
+                  "content": "April 2009"
+                },
+                {
+                  "name": "PDIES category",
+                  "content": "Topography"
+                },
+                {
+                  "name": "Disclaimer",
+                  "content": "The Mekong River Commission makes no warranties about the data deliniated and disclaims all responsibility and reliability for all expences, losses, damages and costs which maybe incurred as a result of the data being inaccurate or incomplete in any way and for any reason.<p>The data contained herein do not imply the expression of any opinion whatsoever on the part of the Mekong River Commission concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delineation of its frontiers or boundaries.</p>"
+                },
+                {
+                  "name": "Access and acknowledgements",
+                  "content": "Refernce documents: https://www.mrcmekong.org/assets/Publications/basin-reports/BDP-Atlas-Final-2011.pdf"
+                },
+                {
+                  "name": "Data source",
+                  "content": " MRC Planning Atlas 2011"
+                }
+              ],
+              "infoSectionOrder": [
+                "Description",
+                "Dataset reference date",
+                "PDIES category",
+                "Disclaimer",
+                "Access and acknowledgements",
+                "Data source"
+              ]
+            },
+            {
+              "id": "Mekong Basin Atlas/Baseline Data/Maintributary",
+              "shareKeys": [
+                "Mekong Basin Atlas/Baseline Data/Maintributary"
+              ],
+              "name": "Main River Tributary",
+              "type": "wms",
+              "url": "https://geo.mrcmekong.org/geo/mrc/wms",
+              "layers": "mrc:River_maintributary",
+              "opacity": 1,
+              "info": [
+                {
+                  "name": "Description",
+                  "content": "Main river tributary in Lower Mekong Basin"
+                },
+                {
+                  "name": "Dataset reference date",
+                  "content": "April 2009"
+                },
+                {
+                  "name": "PDIES category",
+                  "content": "Topography"
+                },
+                {
+                  "name": "Disclaimer",
+                  "content": "The Mekong River Commission makes no warranties about the data deliniated and disclaims all responsibility and reliability for all expences, losses, damages and costs which maybe incurred as a result of the data being inaccurate or incomplete in any way and for any reason.<p>The data contained herein do not imply the expression of any opinion whatsoever on the part of the Mekong River Commission concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delineation of its frontiers or boundaries.</p>"
+                },
+                {
+                  "name": "Access and acknowledgements",
+                  "content": "Refernce documents: https://www.mrcmekong.org/assets/Publications/basin-reports/BDP-Atlas-Final-2011.pdf"
+                },
+                {
+                  "name": "Data source",
+                  "content": " MRC Planning Atlas 2011"
+                }
+              ],
+              "infoSectionOrder": [
+                "Description",
+                "Dataset reference date",
+                "PDIES category",
+                "Disclaimer",
+                "Access and acknowledgements",
+                "Data source"
+              ]
+            },
+            {
+              "id": "Mekong Basin Atlas/Baseline Data/Elevation",
+              "shareKeys": [
+                "Mekong Basin Atlas/Baseline Data/Elevation"
+              ],
+              "name": "Elevation",
+              "type": "wms",
+              "url": "https://geo.mrcmekong.org/geo/mrc/wms",
+              "layers": "mrc:MERITDEM90",
+              "opacity": 1,
+              "info": [
+                {
+                  "name": "Description",
+                  "content": "MERIT DEM: Multi-Error-Removed Improved-Terrain DEM. The MERIT DEM was developed by removing multiple error components (absolute bias, stripe noise, speckle noise, and tree height bias) from the existing spaceborne DEMs (SRTM3 v2.1 and AW3D-30m v1). It represents the terrain elevations at a 3sec resolution (~90m at the equator)Last Update: 15 Oct, 2018"
+                },
+                {
+                  "name": "Dataset reference date",
+                  "content": "October 2018"
+                },
+                {
+                  "name": "PDIES category",
+                  "content": "Topography"
+                },
+                {
+                  "name": "Disclaimer",
+                  "content": "The Mekong River Commission makes no warranties about the data deliniated and disclaims all responsibility and reliability for all expences, losses, damages and costs which maybe incurred as a result of the data being inaccurate or incomplete in any way and for any reason.<p>The data contained herein do not imply the expression of any opinion whatsoever on the part of the Mekong River Commission concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delineation of its frontiers or boundaries.</p>"
+                },
+                {
+                  "name": "Access and acknowledgements",
+                  "content": "Online data (original data) could be access from <p>http://hydro.iis.u-tokyo.ac.jp/~yamadai/MERIT_DEM/index.html</p> <p> The dataset could also found from Google Earth Engine :</p><p>https://developers.google.com/earth-engine/datasets/catalog/MERIT_DEM_v1_0_3 </p> <p>Citation:</p>Yamazaki D., D. Ikeshima, R. Tawatari, T. Yamaguchi, F. O'Loughlin, J.C. Neal, C.C. Sampson, S. Kanae & P.D. Bates, A high accuracy map of global terrain elevations, Geophysical Research Letters, vol.44, pp.5844-5853, 2017 doi: 10.1002/2017GL072874"
+                },
+                {
+                  "name": "Data source",
+                  "content": "http://hydro.iis.u-tokyo.ac.jp/~yamadai/MERIT_DEM/index.html"
+                }
+              ],
+              "infoSectionOrder": [
+                "Description",
+                "Dataset reference date",
+                "PDIES category",
+                "Disclaimer",
+                "Access and acknowledgements",
+                "Data source"
+              ]
+            }
+
+          ],
+          "isOpen": false
+        },
+        {
+          "id": "Mekong Basin Atlas/Social Dimension",
+          "shareKeys": [
+            "Mekong Basin Atlas/Social Dimension"
+          ],
+          "type": "group",
+          "name": "Social Dimension",
+       
+          "members": [
+          
+
+          ],
+          "isOpen": false
+        },
+        {
+          "id": "Mekong Basin Atlas/Environmental Dimension",
+          "shareKeys": [
+            "Mekong Basin Atlas/Environmental Dimension"
+          ],
+          "type": "group",
+          "name": "Environmental Dimension",
+        
+          "members": [
+
+            {
+              "id": "Mekong Basin Atlas/Environmental Dimension/Core River Monitoring Network",
+              "shareKeys": [
+                "Mekong Basin Atlas/Environmental Dimension/Core River Monitoring Network"
+              ],
+              "type": "group",
+              "name": "Core River Monitoring Network Stations",
+              "sortMembersBy": "name",
+              "members": [
+                {
+                  "id": "Mekong Basin Atlas/Environmental Dimension/Core River Monitoring Network/Ecological Health Monitoring 2021",
+                  "shareKeys": [
+                    "Mekong Basin Atlas/Environmental Dimension/Core River Monitoring Network/Ecological Health Monitoring 2021"
+                  ],
+                  "type": "wms",
+                  "url": "https://geo.mrcmekong.org/geo/mrc/wms",
+                  "layers": "mrc:EcoHealthMonitoring",
+                  "name": "Ecological Health 2021",
+                  "opacity": 1,
+                  "info": [
+                    {
+                      "name": "Description",
+                      "content": "The routine Ecological Health Monitoring (EHM) data and map have been implemented in a biennial basis (starting from 2011, 2013, 2015, 2017, 2019, and 2021) and three indicator metrics of the health of the Mekong aquatic ecosystem have been calculated for each of the four groups of the organisms: benthic diatoms, zooplankton, littoral macroinvertebrates, and benthic macroinvertebrates. The metrics are average abundance, average richness and ATSPT of each of the four groups. A healthy ecosystem is indicated by high abundance, high average richness, and low ATSPT. Each metric has been calculated for individual samples of each group of organisms. The Ecological Health Monitoring (EHM) program was developed and undertaken on a biennial basis. There are 41 monitoring locations across the LMB with eight each in Lao PDR, Thailand and Viet Nam, and 17 in Cambodia. <p>In 2021, the site assessment results showed that thirty-six (36) stations (or 87.80%) have been evaluated as “Good” (Class B) condition, three (03) stations in Cambodia (or 7.32%) have been evaluated as “Excellent” (Class A) condition, and one (01) station each in Lao PDR and Thailand (or 4.88%) has been evaluated as “Moderate” (Class C) condition, respectively.</p><p>The data was recently updated on May, 2021.</p> "
+                    },
+                    {
+                      "name": "Dataset reference date",
+                      "content": "Year 2021"
+                    },
+                    {
+                      "name": "PDIES category",
+                      "content": "Environment/Ecology"
+                    },
+                    {
+                      "name": "Disclaimer",
+                      "content": "The Mekong River Commission makes no warranties about the data deliniated and disclaims all responsibility and reliability for all expences, losses, damages and costs which maybe incurred as a result of the data being inaccurate or incomplete in any way and for any reason.<p>The data contained herein do not imply the expression of any opinion whatsoever on the part of the Mekong River Commission concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delineation of its frontiers or boundaries.</p>"
+                    },
+                    {
+                      "name": "Access and acknowledgements",
+                      "content": "The data was developed by using the information from the following citation: <p>MRC (2010) Biomonitoring Methods for the Lower Mekong Basin. Mekong River Commission, Vientiane. 65 pp.<p/><p>For more information : https://portal.mrcmekong.org/ehm</p>"
+                    },
+                    {
+                      "name": "Data source",
+                      "content": "Original data sources are from “Biomonitoring Methods for the Lower Mekong Basin” which was published in April 2010"
+                    }
+                  ],
+                  "infoSectionOrder": [
+                    "Description",
+                    "Dataset reference date",
+                    "PDIES category",
+                    "Disclaimer",
+                    "Access and acknowledgements",
+                    "Data source"
+                  ]
+                },
+                {
+                  "id": "Mekong Basin Atlas/Environmental Dimension/Core River Monitoring Network/Water Quality Index",
+                  "shareKeys": [
+                    "Mekong Basin Atlas/Environmental Dimension/Core River Monitoring Network/Water Quality Index"
+                  ],
+                  "name": "Water Quality 2021",
+                  "type": "wms",
+                  "url": "https://geo.mrcmekong.org/geo/mrc/wms",
+                  "layers": "mrc:WQ_stations_CRMN",
+                  "opacity": 1,
+                  "info": [
+                    {
+                      "name": "Description",
+                      "content": "Based on a review of the scientific literature and a statistical analysis of the MRC data, a Water Quality Index has been designed based on a set of key water quality parameters. The Water Quality Index shows the pressure exerted by human activities on the water quality of the Mekong River.<p>The dataset including 4 indexes of Human Health Index, Aquatic Life Index, Agriculture use for general irrigation index, and  general use for Paddy irrigation index.</p><p>The Water Quality Index is calculated each year. Most updated data for Water Quality Index is updated year 2021.</p>"
+                    },
+                    {
+                      "name": "Dataset reference date",
+                      "content": "Year 2021"
+                    },
+                    {
+                        "name": "PDIES category",
+                        "content": "Environment/Ecology"
+                    },
+                    {
+                      "name": "Disclaimer",
+                      "content": "The Mekong River Commission makes no warranties about the data deliniated and disclaims all responsibility and reliability for all expences, losses, damages and costs which maybe incurred as a result of the data being inaccurate or incomplete in any way and for any reason.<p>The data contained herein do not imply the expression of any opinion whatsoever on the part of the Mekong River Commission concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delineation of its frontiers or boundaries.</p>"
+                    },
+                    {
+                      "name": "Access and acknowledgements",
+                      "content": "The time series of dataset can be seen at https://portal.mrcmekong.org/monitoring/water-quality"
+                    },
+                    {
+                      "name": "Data source",
+                      "content": "ED, MRCS"
+                    }
+                  ],
+                  "infoSectionOrder": [
+                    "Description",
+                    "Dataset reference date",
+                    "PDIES category",
+                    "Disclaimer",
+                    "Access and acknowledgements",
+                    "Data source"
+                  ]
+                },
+                {
+                  "id": "Mekong Basin Atlas/Environmental Dimension/Core River Monitoring Network/Fishery Station",
+                  "shareKeys": [
+                    "Mekong Basin Atlas/Environmental Dimension/Core River Monitoring Network/Fishery Station"
+                  ],
+                  "name": "Fishery Station",
+                  "type": "wms",
+                  "url": "https://geo.mrcmekong.org/geo/mrc/wms",
+                  "layers": "mrc:Fishery_station_CRMN",
+                  "opacity": 1,
+                  "info": [
+                    {
+                      "name": "Description",
+                      "content": "The MRC fisheries monitoring consists of three types: Dai fisheries Monitoring on the Tonle Sap River, Fish Larvae Drift Monitoring (FLDM) and Fish Abundance and Diversity Monitoring (FADM). The monitoring measures yield indicators contributing to the interpretation of the status and trends of basin-wide capture fisheries and provides effective means to assess the effects of development activities on water resources in the basin.<p>Significant fisheries monitoring stations have been addressed and included in the Core River Monitoring Network (CRMN) together with the other four environmental disciplines: hydrology, sediments, water quality, and ecological health.</p>The former fisheries monitoring network was made of 38 FADM stations and 8 FLDM stations, plus Dai fisheries and 4 JEM stations. The redesigned CRMN is made of 38 FADM stations (including Dai fisheries), and 10 FLDM stations, i.e. 48 stations."
+                    },
+                    {
+                      "name": "Dataset reference date",
+                      "content": "December 2022"
+                    },
+                    {
+                        "name": "PDIES category",
+                        "content": "Environment/Ecology"
+                    },
+                    {
+                      "name": "Disclaimer",
+                      "content": "The Mekong River Commission makes no warranties about the data deliniated and disclaims all responsibility and reliability for all expences, losses, damages and costs which maybe incurred as a result of the data being inaccurate or incomplete in any way and for any reason.<p>The data contained herein do not imply the expression of any opinion whatsoever on the part of the Mekong River Commission concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delineation of its frontiers or boundaries.</p>"
+                    },
+                    {
+                      "name": "Access and acknowledgements",
+                      "content": "The data was developed by using the information from MRC riparian staff in its routine fisheries monitoring programs as follows:<p>- Cambodia: Fisheries Administration (FiA), Tonle Sap Authority (TSA) </p><p>- Lao PDR: Living Aquatic Resources Research Center (LARReC), National Agriculture Forestry Institute (NAFRI), Department of Livestock and Fisheries (DLF) </p><p>- Thailand: Department of Fisheries (DOF), Inland Fisheries Research and Development Division </p>- Viet Nam: Research Institute for Aquaculture No2 (RIA2)"
+                    },
+                    {
+                      "name": "Data source",
+                      "content": "Online data: https://portal.mrcmekong.org/monitoring/fisheries <p>Fisheries database for authorized riparian staff: http://fadm.mrcmekong.org/"
+                    }
+                  ],
+                  "infoSectionOrder": [
+                    "Description",
+                    "Dataset reference date",
+                    "PDIES category",
+                    "Disclaimer",
+                    "Access and acknowledgements",
+                    "Data source"
+                  ]
+                },
+                {
+                  "id": "Mekong Basin Atlas/Environmental Dimension/Core River Monitoring Network/DSMP Station",
+                  "shareKeys": [
+                    "Mekong Basin Atlas/Environmental Dimension/Core River Monitoring Network/DSMP Station"
+                  ],
+                  "name": "Discharge & Sediment Monitoring Station",
+                  "type": "wms",
+                  "url": "https://geo.mrcmekong.org/geo/mrc/wms",
+                  "layers": "mrc:MRC_DSMP_CRMN",
+                  "opacity": 1,
+                  "info": [
+                    {
+                      "name": "Description",
+                      "content": "This data represents the location of MRC Discharge and Sediment Monitoring (DSM) Sites. It consists of existing and planned sites as a part of MRC Core River Monitoring Network (CRMN). <p>The data collected for the sites are discharge, suspended sediment concentration, sediment bedload and bed materials, bedload grains-size, river cross-sections, which those data are used for water-discharge rating curve development, calculated sediment load/flux and so on.</p>"
+                    },
+                    {
+                      "name": "Dataset reference date",
+                      "content": "January 2023"
+                    },
+                    {
+                        "name": "PDIES category",
+                        "content": "Environment/Ecology"
+                    },
+                    {
+                      "name": "Disclaimer",
+                      "content": "The Mekong River Commission makes no warranties about the data deliniated and disclaims all responsibility and reliability for all expences, losses, damages and costs which maybe incurred as a result of the data being inaccurate or incomplete in any way and for any reason.<p>The data contained herein do not imply the expression of any opinion whatsoever on the part of the Mekong River Commission concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delineation of its frontiers or boundaries.</p>"
+                    },
+                    {
+                      "name": "Access and acknowledgements",
+                      "content": "Citation to the paper for using the MRC data."
+                    },
+                    {
+                      "name": "Data source",
+                      "content": "MRC database. TD, MRCS"
+                    }
+                  ],
+                  "infoSectionOrder": [
+                    "Description",
+                    "Dataset reference date",
+                    "PDIES category",
+                    "Disclaimer",
+                    "Access and acknowledgements",
+                    "Data source"
+                  ]
+                },
+                {
+                  "id": "Mekong Basin Atlas/Environmental Dimension/Core River Monitoring Network/HydroMet Station",
+                  "shareKeys": [
+                    "Mekong Basin Atlas/Environmental Dimension/Core River Monitoring Network/HydroMet Station"
+                  ],
+                  "name": "Hydro & Meteorology Station",
+                  "type": "wms",
+                  "url": "https://geo.mrcmekong.org/geo/mrc/wms",
+                  "layers": "mrc:MRC_Hydromet_CRMN",
+                  "opacity": 1,
+                  "info": [
+                    {
+                      "name": "Description",
+                      "content": "This data represents the location of hydrometeorological monitoring stations under the MRC monitoring system. It consists of existing stations which are identified either as a station included or excluded from a part of MRC Core River Monitoring Network (CRMN). Also, consists of new stations to be added for the CRMN.<p>The stations are mostly with automatic data transmission which monitor mainly water level and rainfall in every 15mins.<p/>"
+                    },
+                    {
+                      "name": "Dataset reference date",
+                      "content": "January 2023"
+                    },
+                    {
+                        "name": "PDIES category",
+                        "content": "Environment/Ecology"
+                    },
+                    {
+                      "name": "Disclaimer",
+                      "content": "The Mekong River Commission makes no warranties about the data deliniated and disclaims all responsibility and reliability for all expences, losses, damages and costs which maybe incurred as a result of the data being inaccurate or incomplete in any way and for any reason.<p>The data contained herein do not imply the expression of any opinion whatsoever on the part of the Mekong River Commission concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delineation of its frontiers or boundaries.</p>"
+                    },
+                    {
+                      "name": "Access and acknowledgements",
+                      "content": "Citation to the paper for using the MRC data."
+                    },
+                    {
+                      "name": "Data source",
+                      "content": "MRC database. TD, MRCS<p>Online datasource : https://portal.mrcmekong.org/monitoring/river-monitoring-telemetry</p>"
+                    }
+                  ],
+                  "infoSectionOrder": [
+                    "Description",
+                    "Dataset reference date",
+                    "PDIES category",
+                    "Disclaimer",
+                    "Access and acknowledgements",
+                    "Data source"
+                  ]
+                }
+
+              ],
+              "isOpen": false
+            },
+            {
+              "id": "Mekong Basin Atlas/Environmental Dimension/Deep Pools & Rapids",
+              "shareKeys": [
+                "Mekong Basin Atlas/Environmental Dimension/Deep Pools & Rapids"
+              ],
+              "type": "group",
+              "name": "Deep Pools & Rapids",
+              "sortMembersBy": "name",
+              "members": [
+                  {
+                    "id": "Mekong Basin Atlas/Environmental Dimension/Deep Pools & Rapids/deeppools",
+                    "shareKeys": [
+                      "Mekong Basin Atlas/Environmental Dimension/Deep Pools & Rapids/deeppools"
+                    ],
+                    "type": "wms",
+                    "url": "https://geo.mrcmekong.org/geo/mrc/wms",
+                    "layers": "mrc:DeepPool",
+                    "name": "Deep Pools",
+                    "opacity": 1,
+                    "info": [
+                      {
+                        "name": "Description",
+                        "content": "The data represent the pools identified from a statistical analysis of the riverbed long profile (a plot of river depth along the line of deepest flow versus distance downstream) of the lower Mekong River. Pools were identified by fitting a trend to the long profile and then selecting all depressions beneath the trend line"
+                      },
+                      {
+                        "name": "Dataset reference date",
+                        "content": "Year 2011"
+                      },
+                      {
+                        "name": "PDIES category",
+                        "content": "Environment/Ecology"
+                      },
+                      {
+                        "name": "Disclaimer",
+                        "content": "The Mekong River Commission makes no warranties about the data deliniated and disclaims all responsibility and reliability for all expences, losses, damages and costs which maybe incurred as a result of the data being inaccurate or incomplete in any way and for any reason.<p>The data contained herein do not imply the expression of any opinion whatsoever on the part of the Mekong River Commission concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delineation of its frontiers or boundaries.</p>"
+                      },
+                      {
+                        "name": "Access and acknowledgements",
+                        "content": "Reference document: https://www.mrcmekong.org/assets/Publications/basin-reports/BDP-Atlas-Final-2011.pdf"
+                      },
+                      {
+                        "name": "Data source",
+                        "content": "MRC Planing Atlas 2011"
+                      }
+                    ],
+                    "infoSectionOrder": [
+                      "Description",
+                      "Dataset reference date",
+                      "PDIES category",
+                      "Disclaimer",
+                      "Access and acknowledgements",
+                      "Data source"
+                    ]
+                  },
+                  {
+                    "id": "Mekong Basin Atlas/Environmental Dimension/Deep Pools & Rapids/Deep Pools LEK",
+                    "shareKeys": [
+                      "Mekong Basin Atlas/Environmental Dimension/Deep Pools & Rapids/Deep Pools LEK"
+                    ],
+                    "type": "wms",
+                    "url": "https://geo.mrcmekong.org/geo/mrc/wms",
+                    "layers": "mrc:DeepPool_LEK",
+                    "name": "Deep Pools LEK",
+                    "opacity": 1,
+                    "info": [
+                      {
+                        "name": "Description",
+                        "content": "The data is the location of the pools identified from local ecological knowledge (LEK) obtained during several independent surveys conducted between 1995 and 2010. These surveys identified pools based on interviews with fisher groups in ecologically significant areas and productive fishing grounds, often in combination with field surveys of river bathymetry (depth) and interpretation of existing bathymetric maps. Some pools identified in these surveys did not have geographic coordinates and so have not been included in this map. Only some tributaries have been surveyed."
+                      },
+                      {
+                        "name": "Dataset reference date",
+                        "content": "Year 2011"
+                      },
+                      {
+                        "name": "PDIES category",
+                        "content": "Environment/Ecology"
+                      },
+                      {
+                        "name": "Disclaimer",
+                        "content": "The Mekong River Commission makes no warranties about the data deliniated and disclaims all responsibility and reliability for all expences, losses, damages and costs which maybe incurred as a result of the data being inaccurate or incomplete in any way and for any reason.<p>The data contained herein do not imply the expression of any opinion whatsoever on the part of the Mekong River Commission concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delineation of its frontiers or boundaries.</p>"
+                      },
+                      {
+                        "name": "Access and acknowledgements",
+                        "content": "Reference document: https://www.mrcmekong.org/assets/Publications/basin-reports/BDP-Atlas-Final-2011.pdf"
+                      },
+                      {
+                        "name": "Data source",
+                        "content": "MRC Planing Atlas 2011"
+                      }
+                    ],
+                    "infoSectionOrder": [
+                      "Description",
+                      "Dataset reference date",
+                      "PDIES category",
+                      "Disclaimer",
+                      "Access and acknowledgements",
+                      "Data source"
+                    ]
+                  },
+                  {
+                    "id": "Mekong Basin Atlas/Environmental Dimension/Deep Pools & Rapids/Rapids",
+                    "shareKeys": [
+                      "Mekong Basin Atlas/Environmental Dimension/Deep Pools & Rapids/Rapids"
+                    ],
+                    "type": "wms",
+                    "url": "https://geo.mrcmekong.org/geo/mrc/wms",
+                    "layers": "mrc:Rapids",
+                    "name": "Rapids",
+                    "opacity": 1,
+                    "info": [
+                      {
+                        "name": "Description",
+                        "content": "Location of the rapids between Chiang Saen to Pakse."
+                      },
+                      {
+                        "name": "Dataset reference date",
+                        "content": "Year 2010"
+                      },
+                      {
+                        "name": "PDIES category",
+                        "content": "Environment/Ecology"
+                      },
+                      {
+                        "name": "Disclaimer",
+                        "content": "The Mekong River Commission makes no warranties about the data deliniated and disclaims all responsibility and reliability for all expences, losses, damages and costs which maybe incurred as a result of the data being inaccurate or incomplete in any way and for any reason.<p>The data contained herein do not imply the expression of any opinion whatsoever on the part of the Mekong River Commission concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delineation of its frontiers or boundaries.</p>"
+                      },
+                      {
+                        "name": "Access and acknowledgements",
+                        "content": "Reference document: https://www.mrcmekong.org/assets/Publications/basin-reports/BDP-Atlas-Final-2011.pdf"
+                      },
+                      {
+                        "name": "Data source",
+                        "content": "Riparian countries data"
+                      }
+                    ],
+                    "infoSectionOrder": [
+                      "Description",
+                      "Dataset reference date",
+                      "PDIES category",
+                      "Disclaimer",
+                      "Access and acknowledgements",
+                      "Data source"
+                    ]
+                  }
+              ],
+              "isOpen": false
+	          },
+            {
+              "id": "Mekong Basin Atlas/Environmental Dimension/Ground Water",
+              "shareKeys": [
+                "Mekong Basin Atlas/Environmental Dimension/Ground Water"
+              ],
+              "type": "group",
+              "name": "Ground Water",
+              "sortMembersBy": "name",
+              "members": [
+                  {
+                    "id": "Mekong Basin Atlas/Environmental Dimension/Ground Water/Hydrogeology",
+                    "shareKeys": [
+                      "Mekong Basin Atlas/Environmental Dimension/Ground Water/Hydrogeology"
+                    ],
+                    "type": "wms",
+                    "url": "https://geo.mrcmekong.org/geo/mrc/wms",
+                    "layers": "mrc:Hydro_Geology_Aquifer_LMB",
+                    "name": "Hydrogeology",
+                    "opacity": 1,
+                    "info": [
+                      {
+                        "name": "Description",
+                        "content": "Ground water aquifer Feature class used to compose the HydroGeological map. The layer shows description of each class"
+                      },
+                      {
+                        "name": "Dataset reference date",
+                        "content": "Year 1992"
+                      },
+                      {
+                        "name": "PDIES category",
+                        "content": "Environment/Ecology"
+                      },
+                      {
+                        "name": "Disclaimer",
+                        "content": "The Mekong River Commission makes no warranties about the data deliniated and disclaims all responsibility and reliability for all expences, losses, damages and costs which maybe incurred as a result of the data being inaccurate or incomplete in any way and for any reason.<p>The data contained herein do not imply the expression of any opinion whatsoever on the part of the Mekong River Commission concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delineation of its frontiers or boundaries.</p>"
+                      },
+                      {
+                        "name": "Access and acknowledgements",
+                        "content": "The dataset was compiled by Adisai Charuratna and Tran Hong Phu, 1992"
+                      },
+                      {
+                        "name": "Data source",
+                        "content": "Technical Support Division, MRCS"
+                      }
+                    ],
+                    "infoSectionOrder": [
+                      "Description",
+                      "Dataset reference date",
+                      "PDIES category",
+                      "Disclaimer",
+                      "Access and acknowledgements",
+                      "Data source"
+                    ]
+                  },
+                  {
+                    "id": "Mekong Basin Atlas/Environmental Dimension/Ground Water/GWP",
+                    "shareKeys": [
+                      "Mekong Basin Atlas/Environmental Dimension/Ground Water/GWP"
+                    ],
+                    "type": "wms",
+                    "url": "https://geo.mrcmekong.org/geo/mrc/wms",
+                    "layers": "mrc:GroundWaterPotential",
+                    "name": "Ground Water Potential",
+                    "opacity": 1,
+                    "info": [
+                      {
+                        "name": "Description",
+                        "content": "Ground water potential Feature class used to compose the HydroGeological map. The Unit of the data layer is cubic meter / hr"
+                      },
+                      {
+                        "name": "Dataset reference date",
+                        "content": "Year 1992"
+                      },
+                      {
+                        "name": "PDIES category",
+                        "content": "Environment/Ecology"
+                      },
+                      {
+                        "name": "Disclaimer",
+                        "content": "The Mekong River Commission makes no warranties about the data deliniated and disclaims all responsibility and reliability for all expences, losses, damages and costs which maybe incurred as a result of the data being inaccurate or incomplete in any way and for any reason.<p>The data contained herein do not imply the expression of any opinion whatsoever on the part of the Mekong River Commission concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delineation of its frontiers or boundaries.</p>"
+                      },
+                      {
+                        "name": "Access and acknowledgements",
+                        "content": "The dataset was compiled by Adisai Charuratna and Tran Hong Phu, 1992"
+                      },
+                      {
+                        "name": "Data source",
+                        "content": "Technical Support Division, MRCS"
+                      }
+                    ],
+                    "infoSectionOrder": [
+                      "Description",
+                      "Dataset reference date",
+                      "PDIES category",
+                      "Disclaimer",
+                      "Access and acknowledgements",
+                      "Data source"
+                    ]
+                  }
+              ],
+              "isOpen": false
+	          },
+            {
+            "id": "Mekong Basin Atlas/Environmental Dimension/Land Use Land Cover",
+            "shareKeys": [
+              "Mekong Basin Atlas/Environmental Dimension/Land Use Land Cover"
+            ],
+            "type": "group",
+            "name": "Land Use Land Cover",
+          
+            "members": [
+              {
+                "id": "Mekong Basin Atlas/Environmental Dimension//Land Use Land Cover/LC2003",
+                "shareKeys": [
+                  "Mekong Basin Atlas/Environmental Dimension//Land Use Land Cover/LC2003"
+                ],
+                "type": "wms",
+                "url": "https://geo.mrcmekong.org/geo/mrc/wms",
+                "layers": "mrc:Landcover2003",
+                "name": "Land Cover 2003",
+                "opacity": 1,
+                "info": [
+                  {
+                    "name": "Description",
+                    "content": "Land Cover of the Lower Mekong Basin, 2003 generated from countries land cover data 2002-2004"
+                  },
+                  {
+                    "name": "Dataset reference date",
+                    "content": "Year 2003"
+                  },
+                  {
+                    "name": "PDIES category",
+                    "content": "Natural resources"
+                  },
+                  {
+                    "name": "Disclaimer",
+                    "content": "The Mekong River Commission makes no warranties about the data deliniated and disclaims all responsibility and reliability for all expences, losses, damages and costs which maybe incurred as a result of the data being inaccurate or incomplete in any way and for any reason.<p>The data contained herein do not imply the expression of any opinion whatsoever on the part of the Mekong River Commission concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delineation of its frontiers or boundaries.</p>"
+                  },
+                  {
+                    "name": "Access and acknowledgements",
+                    "content": "TD,MRCS"
+                  },
+                  {
+                    "name": "Data source",
+                    "content": "TD,MRCS"
+                  }
+                ],
+                "infoSectionOrder": [
+                  "Description",
+                  "Dataset reference date",
+                  "PDIES category",
+                  "Disclaimer",
+                  "Access and acknowledgements",
+                  "Data source"
+                ]
+              },
+              {
+                "id": "Mekong Basin Atlas/Environmental Dimension//Land Use Land Cover/LC2010",
+                "shareKeys": [
+                  "Mekong Basin Atlas/Environmental Dimension//Land Use Land Cover/LC2010"
+                ],
+                "type": "wms",
+                "url": "https://geo.mrcmekong.org/geo/mrc/wms",
+                "layers": "mrc:Landcover2010",
+                "name": "Land Cover 2010",
+                "opacity": 1,
+                "info": [
+                  {
+                    "name": "Description",
+                    "content": "The Project to Update the Land Cover Map of the Lower Mekong Basin for 2010 was designed to produce three data sets based on 19 types of single-class land cover based on the FAO Land Cover Classification System.<p>To establish a baseline for producing an updated and qualified land cover data set and catalogue for the basin, the National Mekong Committees and line agencies collected field data on land cover between October 2011 and February 2012. The main objectives were to collect, compile and provide accurate and reliable information to help interpret satellite imagery, conduct achievable accuracy assessments, and establish a land cover information catalogue for the LMB.</p><p>The project acquired Landsat 5 Thematic Mapper satellite images for pre-processing. There were 40 images covering the Lower Mekong Basin (LMB) and 80 images for both the dry and wet periods, mostly taken in 2009 and 2010.</p>"
+                  },
+                  {
+                    "name": "Dataset reference date",
+                    "content": "2010"
+                  },
+                  {
+                    "name": "PDIES category",
+                    "content": "Natural resources"
+                  },
+                  {
+                    "name": "Disclaimer",
+                    "content": "The Mekong River Commission makes no warranties about the data deliniated and disclaims all responsibility and reliability for all expences, losses, damages and costs which maybe incurred as a result of the data being inaccurate or incomplete in any way and for any reason.<p>The data contained herein do not imply the expression of any opinion whatsoever on the part of the Mekong River Commission concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delineation of its frontiers or boundaries.</p>"
+                  },
+                  {
+                    "name": "Access and acknowledgements",
+                    "content": "TD,MRCS"
+                  },
+                  {
+                    "name": "Data source",
+                    "content": "MRC Technical Paper No.59, March 2016"
+                  }
+                ],
+                "infoSectionOrder": [
+                  "Description",
+                  "Dataset reference date",
+                  "PDIES category",
+                  "Disclaimer",
+                  "Access and acknowledgements",
+                  "Data source"
+                ]
+              },
+              {
+                "id": "Mekong Basin Atlas/Environmental Dimension/LULC 2020",
+                "shareKeys": [
+                  "Mekong Basin Atlas/Environmental Dimension/LULC 2020"
+                ],
+                "type": "wms",
+                "name": "Land Use Land Cover 2020",
+                "info": [
+                  {
+                    "name": "Description",
+                    "content": "Enhancing MRC's Land Use/Land Cover 2020 Mapping Products for Lower Mekong Basin (LMB). MRCS aims to implement and generate new datasets of LULC map 2020 including their information catalogue on annual datasets for disseminating through MRC-IS. This database was generate by using remote sensing data for year 2020 (Landsat8, Sentinel1, Sentinel2, and Plannet) along with cloud computing and machine learning technique."
+                  },
+                  {
+                    "name": "Dataset reference date",
+                    "content": "Year 2020"
+                  },
+                  {
+                    "name": "PDIES category",
+                    "content": "Natural resources"
+                  },
+                  {
+                    "name": "Disclaimer",
+                    "content": "The Mekong River Commission makes no warranties about the data deliniated and disclaims all responsibility and reliability for all expences, losses, damages and costs which maybe incurred as a result of the data being inaccurate or incomplete in any way and for any reason.<p>The data contained herein do not imply the expression of any opinion whatsoever on the part of the Mekong River Commission concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delineation of its frontiers or boundaries.</p>"
+                  },
+                  {
+                    "name": "Access and acknowledgements",
+                    "content": "<p>Cambodia National Mekong Committee (CNMC), Phnom Penh Geoinformatics Education Center (PGEC) from Cambodia</p><p>Laos National Mekong Committee (LNMC), Forest Inventory and Planning Division (FIPD) from Lao PDR</p><p>Thailand National Mekong Committee (TNMC), Land Development Department (LDD) from Thailand</p><p>Vietnam National Mekong Committee (VNMC), Sub-National Institute of Agricultural Planning and Projection (Sub-NIAPP) from Vietnam</p>"
+                  },
+                  {
+                    "name": "Data source",
+                    "content": "Enhancing MRC's Land Use/Land Cover 2020 Mapping Products for Lower Mekong Basin (LMB), MRC 2021"
+                  }
+                ],
+                "infoSectionOrder": [
+                  "Description",
+                  "Dataset reference date",
+                  "PDIES category",
+                  "Disclaimer",
+                  "Access and acknowledgements",
+                  "Data source"
+                ],
+                "url": "https://geo.mrcmekong.org/geo/mrc/wms",
+                "layers": "mrc:LULC2020_LMB",
+                "opacity": 1,
+                "isGeoServer": true,
+                "featureInfoTemplate": {
+                  "showFeatureInfoDownloadWithTemplate": false,
+                  "template": "<table><tbody><tr><td>LULC Class</td><td>{{#terria.partialByName}}{{GRAY_INDEX}}{{/terria.partialByName}}</td></tr></tbody></table>",
+                  "partials": {
+                    "0": "Other",
+                    "1": "Annual Crop",
+                    "2": "Aquaculture",
+                    "3": "Bamboo",
+                    "4": "Bare Soil",
+                    "5": "Deciduous Forest",
+                    "6": "Evergreen Forest",
+                    "7": "Flooded Forest",
+                    "8": "Forest Plantation",
+                    "9": "Grassland",
+                    "10": "Industrial Plantation",
+                    "11": "Mangroove",
+                    "12": "Orchard",
+                    "13": "Paddy Rice",
+                    "14": "Urban",
+                    "15": "Water Body",
+                    "16": "Coniferous Forest",
+                    "17": "Marsh Swamp",
+                    "18": "Shrubland"
+                  }
+                }
+              }
+
+            ],
+            "isOpen": false
+            },
+           {
+              "id": "Mekong Basin Atlas/Environmental Dimension/Fish Habitat",
+              "shareKeys": [
+                "Mekong Basin Atlas/Environmental Dimension/Fish Habitat"
+              ],
+              "type": "wms",
+              "name": "Fish Habitat",
+              "info": [
+                {
+                  "name": "Description",
+                  "content": "Fish habitat classification distinguishing 7 habitat types: the 4 major habitats with aquaculture in the major flood zone, rainfed zone, and brackish-estuarine area classified separately. The project is done by July 2022 <p>The JRC Yearly Water Classification History data (with a native resolution of 30m) were accessed through the Google Earth Engine to determine maximum annual flood extents for the period 2010-2019. Forest canopy prohibits the JRC dataset to appropriately classify inundated area, therefore the flooded forest extent from the TD LU/LC 2020 map was added to the major flood zone class. Reservoirs and other water bodies data were extracted from the Second Basin Development Plan. Built-up areas and all other lands based on the Urban class in the MRC Technical Support Division (TD) Land Use / Land Cover (LU/LC) product for 2020, which are not part of the major flood zone, nor of any of the other habitat types (i.e., aquacultures), were removed.</p>"
+                },
+                {
+                  "name": "Dataset reference date",
+                  "content": "Year 2021"
+                },
+                {
+                  "name": "PDIES category",
+                  "content": "Environment/Ecology"
+                },
+                {
+                  "name": "Disclaimer",
+                  "content": "The Mekong River Commission makes no warranties about the data deliniated and disclaims all responsibility and reliability for all expences, losses, damages and costs which maybe incurred as a result of the data being inaccurate or incomplete in any way and for any reason.<p>The data contained herein do not imply the expression of any opinion whatsoever on the part of the Mekong River Commission concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delineation of its frontiers or boundaries.</p>"
+                },
+                {
+                  "name": "Access and acknowledgements",
+                  "content": "ED, MRCS <p>Pekel, J.-F., Cottam, A., Gorelick, N., Belward, A.S., 2016. High-resolution mapping of global surface water and its long-term changes. Nature 540, 418-422. https://doi.org/10.1038/nature20584</p>"
+                },
+                {
+                  "name": "Data source",
+                  "content": "MRC: Synthesis Report on Major Fish Habitat Types, July 2022 <p>Online JRC data could be accessed from: https://global-surface-water.appspot.com/</p><p>Hortle, K.G. (2007) Consumption and the yield of fish and other aquatic animals from the Lower</p><p>Mekong Basin. MRC Technical Paper No. 16, Mekong River Commission, Vientiane. 87 pp. </p><p>Hortle, K.G. and Bamrungrach, P. (2015) Fisheries Habitat and Yield in the Lower Mekong Basin. </p><p>MRC Technical Paper No. 47. Mekong River Commission, Phnom Penh, Cambodia. 80 pp. </p><p>State of the Basin Report 2018/ The Mekong River Commission/Vientiane/Lao PDR (2019) </p><p>MRC TD, 2021. Enhancing MRC's Land Use / Land Cover 2020 Mapping Products.</p>"
+                }
+              ],
+              "infoSectionOrder": [
+                "Description",
+                "Dataset reference date",
+                "PDIES category",
+                "Disclaimer",
+                "Access and acknowledgements",
+                "Data source"
+              ],
+              "url": "https://geo.mrcmekong.org/geo/mrc/wms",
+              "layers": "mrc:Fish_habitats_7classes_LMB_2020",
+              "opacity": 1,
+              "isGeoServer": true,
+              "featureInfoTemplate": {
+                "template": "<table><tbody><tr><td>Fish habitat</td><td>{{#terria.partialByName}}{{GRAY_INDEX}}{{/terria.partialByName}}</td></tr></tbody></table>",
+                "partials": {
+                  "1": "Major Flood Zone",
+                  "2": "Rainfed Zone",
+                  "3": "Water Body",
+                  "4": "Brackish-Estuarine",
+                  "5": "Aquaculture in Major Flood Zone",
+                  "6": "Aquaculture in Brackish-Estuarine",
+                  "7": "Other Aquaculture"
+                }
+              }
+            },
+            {
+              "id": "Mekong Basin Atlas/Environmental Dimension/Fish Migration Pattern",
+              "shareKeys": [
+                "Mekong Basin Atlas/Environmental Dimension/Fish Migration Pattern"
+              ],
+              "type": "wms",
+              "url": "https://geo.mrcmekong.org/geo/mrc/wms",
+              "layers": "mrc:Fish_Migration_Pattern",
+              "name": "Fish Migration Pattern",
+              "opacity": 0.5,
+              "info": [
+                {
+                  "name": "Description",
+                  "content": "Fisheries ecologists have distinguished three main fish migration systems in the LMB as illustrated in the map: the Lower Mekong (altitude 0-150 m above sea level), the Middle Mekong (altitude 150-200 masl) and the Upper Mekong (altitude 200-500 masl)."
+                },
+                {
+                  "name": "Dataset reference date",
+                  "content": "Year 2009"
+                },
+                {
+                  "name": "PDIES category",
+                  "content": "Environment/Ecology"
+                },
+                {
+                  "name": "Disclaimer",
+                  "content": "The Mekong River Commission makes no warranties about the data deliniated and disclaims all responsibility and reliability for all expences, losses, damages and costs which maybe incurred as a result of the data being inaccurate or incomplete in any way and for any reason.<p>The data contained herein do not imply the expression of any opinion whatsoever on the part of the Mekong River Commission concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delineation of its frontiers or boundaries.</p>"
+                },
+                {
+                  "name": "Access and acknowledgements",
+                  "content": "Refernce documents: https://www.mrcmekong.org/assets/Publications/basin-reports/BDP-Atlas-Final-2011.pdf"
+                },
+                {
+                  "name": "Data source",
+                  "content": " MRC Planning Atlas 2011"
+                }
+              ],
+              "infoSectionOrder": [
+                "Description",
+                "Dataset reference date",
+                "PDIES category",
+                "Disclaimer",
+                "Access and acknowledgements",
+                "Data source"
+              ]
+            },
+            {
+              "id": "Mekong Basin Atlas/Environmental Dimension/Wetland 2020",
+              "shareKeys": [
+                "Mekong Basin Atlas/Environmental Dimension/Wetland 2020"
+              ],
+              "type": "wms",
+              "url": "https://geo.mrcmekong.org/geo/mrc/wms",
+              "layers": "mrc:Wetland2020Class",
+              "name": "Wetland 2020",
+              "info": [
+                {
+                  "name": "Description",
+                  "content": "The LMB Wetland 2020 has been developed based on 'Wetlands of LMB, Cambodia, Lao PDR, Thailand, and Viet Nam' created on 15 December 2015 by Dr. Charlotte MacAlister, with its original author of Ms. Penroong Bamrungrach.<p>This updated data layer has been improved by incorporating the updated satellite imagery data, acquired from Landsat 8 or Sentinel-2 imageries and Sentinel-1 imageries, and then followed by reclassifying based on the FAO-LCCS software application. Lastly, to increase more accuracy, the 2020 Land Use/ Land Cover map from TD had been incorporated for further validation.</p>"
+                },
+                {
+                  "name": "Dataset reference date",
+                  "content": "Year 2020"
+                },
+                {
+                  "name": "PDIES category",
+                  "content": "Environment/Ecology"
+                },
+                {
+                  "name": "Disclaimer",
+                  "content": "The Mekong River Commission makes no warranties about the data deliniated and disclaims all responsibility and reliability for all expences, losses, damages and costs which maybe incurred as a result of the data being inaccurate or incomplete in any way and for any reason.<p>The data contained herein do not imply the expression of any opinion whatsoever on the part of the Mekong River Commission concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delineation of its frontiers or boundaries.</p>"
+                },
+                {
+                  "name": "Access and acknowledgements",
+                  "content": "The data was developed by using the information from Dr. Charlotte MacAlister, with its original author of Ms. Penroong Bamrungrach."
+                },
+                {
+                  "name": "Data source",
+                  "content": "Original data sources: <p>Cambodia: old MRC data, suspected that this dataset derived from Cambodian land use map, 1992/1993 created under MRC/UNEP land use mapping project from the previous MRCS TD.  </p> <p>Lao PDR: Topographic map at scale 1:250,000, Landsat and Spot which acquired between 1987-1992, and field survey from the MRC Wetland Mapping Project: Wetland Mapping in Laos, 1992/1993. </p> <p>Thailand: Soil map and land use map at scale 1:50,000 and field survey, 2003 from Land Development Department, Ministry of Agriculture (Contact: Mr. Somsak Pititeerapap, Agronomist at Research and Development to Combat Desertification and Early Warning Institute, Land Development Department, Thailand (Email: irw_6@ldd.go.th ) </p> <p>Viet Nam: wetland map 2002 from Sub Institute of Water Resource Planning (SIWRP)"
+                }
+              ],
+              "infoSectionOrder": [
+                "Description",
+                "Dataset reference date",
+                "PDIES category",
+                "Disclaimer",
+                "Access and acknowledgements",
+                "Data source"
+              ]
+            },
+           
+           {
+              "id": "Mekong Basin Atlas/Environmental Dimension/BioRA Zone",
+              "shareKeys": [
+                "Mekong Basin Atlas/Environmental Dimension/BioRA Zone"
+              ],
+              "type": "wms",
+              "url": "https://geo.mrcmekong.org/geo/mrc/wms",
+              "layers": "mrc:BioRA_Zone",
+              "name": "BioRA Zone",
+              "opacity": 1,
+              "info": [
+                {
+                  "name": "Description",
+                  "content": "Biological Resource Assessment (BioRA) zone was developed for the council study on Sustainable Management and Development of the Mekong River Basin, including Impacts of Mainstream Hydropower Projects. The final report was done on December 2017. The layer contains 8 different zone of the BioRA which are :<p>Zone 1: Mekong River from the border with China to Pak Beng (confluence with Nam Beng)</p><p>Zone 2: Mekong River from downstream of the Nam Beng to upstream of Vientiane</p><p>Zone 3: Mekong River from Vientiane to Nam Kam town (near confluences with Xe Bang Fei and Nam Kam)</p><p>Zone 4: Mekong River from Nam Kam to Stung Treng (Se San / Se Kong confluences)</p><p>Zone 5: Mekong River from Stung Treng to Kampong Cham</p><p>Zone 6: Tonle Sap River at Prek Kdam, plus the Cambodian Floodplains excluding Zone 5 and 7</p><p>Zone 7: Tonle Sap Great LakeZone 8: The Vietnamese Delta from the Cambodian/Viet Nam border to the sea</p><p>Zone 8: The Vietnamese Delta from the Cambodian/Viet Nam border to the sea"
+                },
+                {
+                  "name": "Dataset reference date",
+                  "content": "December 2017"
+                },
+                {
+                  "name": "PDIES category",
+                  "content": "Environment/Ecology"
+                },
+                {
+                  "name": "Disclaimer",
+                  "content": "The Mekong River Commission makes no warranties about the data deliniated and disclaims all responsibility and reliability for all expences, losses, damages and costs which maybe incurred as a result of the data being inaccurate or incomplete in any way and for any reason.<p>The data contained herein do not imply the expression of any opinion whatsoever on the part of the Mekong River Commission concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delineation of its frontiers or boundaries.</p>"
+                },
+                {
+                  "name": "Access and acknowledgements",
+                  "content": "MRC council study Boilogical Resource Assessment, Technical report series"
+                },
+                {
+                  "name": "Data source",
+                  "content": "Report : https://www.mrcmekong.org/assets/Publications/Council-Study/Biological-resources-assessment_Volume-4_Council-Study.pdf"
+                }
+              ],
+              "infoSectionOrder": [
+                "Description",
+                "Dataset reference date",
+                "PDIES category",
+                "Disclaimer",
+                "Access and acknowledgements",
+                "Data source"
+              ]
+            },
+            {
+              "id": "Mekong Basin Atlas/Environmental Dimension/Protected Area",
+              "shareKeys": [
+                "Mekong Basin Atlas/Environmental Dimension/Protectea Area"
+              ],
+              "type": "wms",
+              "url": "https://geo.mrcmekong.org/geo/mrc/wms",
+              "layers": "mrc:Protected Area 2003",
+              "name": "Protected Area",
+              "opacity": 1,
+              "info": [
+                {
+                  "name": "Description",
+                  "content": "Forest Functions / Protected Areas of Lower Mekong Basin"
+                },
+                {
+                  "name": "Dataset reference date",
+                  "content": "Year 2003"
+                },
+                {
+                  "name": "PDIES category",
+                  "content": "Environment/Ecology"
+                },
+                {
+                  "name": "Disclaimer",
+                  "content": "The Mekong River Commission makes no warranties about the data deliniated and disclaims all responsibility and reliability for all expences, losses, damages and costs which maybe incurred as a result of the data being inaccurate or incomplete in any way and for any reason.<p>The data contained herein do not imply the expression of any opinion whatsoever on the part of the Mekong River Commission concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delineation of its frontiers or boundaries.</p>"
+                },
+                {
+                  "name": "Access and acknowledgements",
+                  "content": "Reference document: https://www.mrcmekong.org/assets/Publications/basin-reports/BDP-Atlas-Final-2011.pdf"
+                },
+                {
+                  "name": "Data source",
+                  "content": "MRC Planing Atlas 2011"
+                }
+              ],
+              "infoSectionOrder": [
+                "Description",
+                "Dataset reference date",
+                "PDIES category",
+                "Disclaimer",
+                "Access and acknowledgements",
+                "Data source"
+              ]
+            }
+
+          ],
+          "isOpen": false
+        },
+
+        {
+          "id": "Mekong Basin Atlas/Economic Dimension",
+          "shareKeys": [
+            "Mekong Basin Atlas/Economic Dimension"
+          ],
+          "type": "group",
+          "name": "Economic Dimension",
+      
+          "members": [
+            {
+              "id": "Mekong Basin Atlas/Economic Dimension/Irrigation",
+              "shareKeys": [
+                "Mekong Basin Atlas/Economic Dimension/Irrigation"
+              ],
+              "type": "group",
+              "name": "Irrigation",
+              "sortMembersBy": "name",
+              "members": [
+                {
+                  "id": "Mekong Basin Atlas/Economic Dimension/Irrigation/Irrigation Area (existing)",
+                  "type": "wms",
+                  "name": "Irrigation Area (existing)",
+                  "url": "https://geo.mrcmekong.org/geo/mrc/wms",
+                  "layers": "mrc:Irrigation Area (existing)",
+                  "opacity": 1,
+                  "info": [
+                    {
+                      "name": "Description",
+                      "content": "MRC regional dataset of an irrigation database improvement 2017 has 4 irrigation datasets; consist of irrigation area, reservoir, headwork, and project. This layer show the polygon of the existing irrigation area in hectare"
+                    },
+                    {
+                      "name": "Dataset reference date",
+                      "content": "Year 2017"
+                    },
+                    {
+                      "name": "PDIES category",
+                      "content": "Agriculture"
+                    },
+                    {
+                      "name": "Disclaimer",
+                      "content": "The Mekong River Commission makes no warranties about the data deliniated and disclaims all responsibility and reliability for all expences, losses, damages and costs which maybe incurred as a result of the data being inaccurate or incomplete in any way and for any reason.<p>The data contained herein do not imply the expression of any opinion whatsoever on the part of the Mekong River Commission concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delineation of its frontiers or boundaries.</p>"
+                    },
+                    {
+                      "name": "Access and acknowledgements",
+                      "content": "The report can be access : https://www.mrcmekong.org/resource/ajg6c1 <p>Cambodia: Mr. Sao Samphear National Consultant for Thematic Area of Cambodia Irrigation GIS Database under MRC Council Study</p> <p> Lao PDR: Department of Irrigation (DoI) </p> <p>Thailand: Royal Irrigation Department (RID) </p> <p> Viet Nam: Viet Nam-Highlands: Institute of Water Resources Planning (IWRP),and Viet Nam-Mekong Delta: Southern Institute for Water Resources Planning (SIWRP)</p>"
+                    },
+                    {
+                      "name": "Data source",
+                      "content": " Cambodia: BDP DB 2009, MRCs DB 2001, AIFP DB 2004, and Irrigation project of council study. <p>Lao PDR: AIFP DB 2004, BDP DB 2009, Lao topographic map 1: 100,000, Aerial photos 2011, Google Earth.</p> <p> Thailand: AIP DB 2004, BDP DB 2009, Thailand topographic map 1: 50,000, orthophoto 30 m., Google Earth, and field data collection. </p> <p>Viet Nam: AIFP DB 2004, BDP DB 2009, Vietnam topographic map 1: 50,000, Srepok topographic map 1: 50,000, Sesan topographic map 1: 50,000 and field data collection 2013, and Google Earth.</p>"
+                    }
+                  ],
+                  "infoSectionOrder": [
+                    "Description",
+                    "Dataset reference date",
+                    "PDIES category",
+                    "Disclaimer",
+                    "Access and acknowledgements",
+                    "Data source"
+                  ]
+                },
+                {
+                  "id": "Mekong Basin Atlas/Economic Dimension/Irrigation/Irrigation Projects",
+                  "type": "wms",
+                  "name": "Irrigation Projects",
+                  "url": "https://geo.mrcmekong.org/geo/mrc/wms",
+                  "layers": "mrc:Irrigation Projects",
+                  "opacity": 1,
+                  "info": [
+                    {
+                      "name": "Description",
+                      "content": "MRC regional dataset of an irrigation database improvement 2017 has 4 irrigation datasets; consist of irrigation area, reservoir, headwork, and project. The legend in this layer show the actual irrgable area (ha) in wet seasson"
+                    },
+                    {
+                      "name": "Dataset reference date",
+                      "content": "Year 2017"
+                    },
+                    {
+                      "name": "PDIES category",
+                      "content": "Agriculture"
+                    },
+                    {
+                      "name": "Disclaimer",
+                      "content": "The Mekong River Commission makes no warranties about the data deliniated and disclaims all responsibility and reliability for all expences, losses, damages and costs which maybe incurred as a result of the data being inaccurate or incomplete in any way and for any reason.<p>The data contained herein do not imply the expression of any opinion whatsoever on the part of the Mekong River Commission concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delineation of its frontiers or boundaries.</p>"
+                    },
+                    {
+                      "name": "Access and acknowledgements",
+                      "content": "The report can be access : https://www.mrcmekong.org/resource/ajg6c1 <p>Cambodia: Mr. Sao Samphear National Consultant for Thematic Area of Cambodia Irrigation GIS Database under MRC Council Study</p> <p> Lao PDR: Department of Irrigation (DoI) </p> <p>Thailand: Royal Irrigation Department (RID) </p> <p> Viet Nam: Viet Nam-Highlands: Institute of Water Resources Planning (IWRP),and Viet Nam-Mekong Delta: Southern Institute for Water Resources Planning (SIWRP)</p>"
+                    },
+                    {
+                      "name": "Data source",
+                      "content": "Cambodia: BDP DB 2009, MRCs DB 2001, AIFP DB 2004, and Irrigation project of council study. <p>Lao PDR: AIFP DB 2004, BDP DB 2009, Lao topographic map 1: 100,000, Aerial photos 2011, Google Earth.</p> <p> Thailand: AIP DB 2004, BDP DB 2009, Thailand topographic map 1: 50,000, orthophoto 30 m., Google Earth, and field data collection. </p> <p>Viet Nam: AIFP DB 2004, BDP DB 2009, Vietnam topographic map 1: 50,000, Srepok topographic map 1: 50,000, Sesan topographic map 1: 50,000 and field data collection 2013, and Google Earth.</p>"
+                    }
+                  ],
+                  "infoSectionOrder": [
+                    "Description",
+                    "Dataset reference date",
+                    "PDIES category",
+                    "Disclaimer",
+                    "Access and acknowledgements",
+                    "Data source"
+                  ]
+                },
+                {
+                  "id": "Mekong Basin Atlas/Economic Dimension/Irrigation/Irrigation Headworks",
+                  "type": "wms",
+                  "name": "Irrigation Headworks",
+                  "url": "https://geo.mrcmekong.org/geo/mrc/wms",
+                  "layers": "mrc:Irrigation Headworks",
+                  "opacity": 1,
+                  "info": [
+                    {
+                      "name": "Description",
+                      "content": "MRC regional dataset of an irrigation database improvement 2017 has 4 irrigation datasets; consist of irrigation area, reservoir, headwork, and project. The legend in this layer show the type of irrigation headworks"
+                    },
+                    {
+                      "name": "Dataset reference date",
+                      "content": "Year 2017"
+                    },
+                    {
+                      "name": "PDIES category",
+                      "content": "Agriculture"
+                    },
+                    {
+                      "name": "Disclaimer",
+                      "content": "The Mekong River Commission makes no warranties about the data deliniated and disclaims all responsibility and reliability for all expences, losses, damages and costs which maybe incurred as a result of the data being inaccurate or incomplete in any way and for any reason.<p>The data contained herein do not imply the expression of any opinion whatsoever on the part of the Mekong River Commission concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delineation of its frontiers or boundaries.</p>"
+                    },
+                    {
+                      "name": "Access and acknowledgements",
+                      "content": "The report can be access : https://www.mrcmekong.org/resource/ajg6c1 <p>Cambodia: Mr. Sao Samphear National Consultant for Thematic Area of Cambodia Irrigation GIS Database under MRC Council Study</p> <p> Lao PDR: Department of Irrigation (DoI) </p> <p>Thailand: Royal Irrigation Department (RID) </p> <p> Viet Nam: Viet Nam-Highlands: Institute of Water Resources Planning (IWRP),and Viet Nam-Mekong Delta: Southern Institute for Water Resources Planning (SIWRP)</p>"
+                    },
+                    {
+                      "name": "Data source",
+                      "content": " Cambodia: BDP DB 2009, MRCs DB 2001, AIFP DB 2004, and Irrigation project of council study. <p>Lao PDR: AIFP DB 2004, BDP DB 2009, Lao topographic map 1: 100,000, Aerial photos 2011, Google Earth.</p> <p> Thailand: AIP DB 2004, BDP DB 2009, Thailand topographic map 1: 50,000, orthophoto 30 m., Google Earth, and field data collection. </p> <p>Viet Nam: AIFP DB 2004, BDP DB 2009, Vietnam topographic map 1: 50,000, Srepok topographic map 1: 50,000, Sesan topographic map 1: 50,000 and field data collection 2013, and Google Earth.</p>"
+                    }
+                  ],
+                  "infoSectionOrder": [
+                    "Description",
+                    "Dataset reference date",
+                    "PDIES category",
+                    "Disclaimer",
+                    "Access and acknowledgements",
+                    "Data source"
+                  ]
+                },
+                {
+                  "id": "Mekong Basin Atlas/Economic Dimension/Irrigation/Irrigation Reservoir",
+                  "type": "wms",
+                  "name": "Irrigation Reservoir",
+                  "url": "https://geo.mrcmekong.org/geo/mrc/wms",
+                  "layers": "mrc:Irrigation Reservoir",
+                  "opacity": 1,
+                  "info": [
+                    {
+                      "name": "Description",
+                      "content": "MRC regional dataset of an irrigation database improvement 2017 has 4 irrigation datasets; consist of irrigation area, reservoir, headwork, and project. The layer shows the reservoir for irrigation sector"
+                    },
+                    {
+                      "name": "Dataset reference date",
+                      "content": "Year 2017"
+                    },
+                    {
+                      "name": "PDIES category",
+                      "content": "Agriculture"
+                    },
+                    {
+                      "name": "Disclaimer",
+                      "content": "The Mekong River Commission makes no warranties about the data deliniated and disclaims all responsibility and reliability for all expences, losses, damages and costs which maybe incurred as a result of the data being inaccurate or incomplete in any way and for any reason.<p>The data contained herein do not imply the expression of any opinion whatsoever on the part of the Mekong River Commission concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delineation of its frontiers or boundaries.</p>"
+                    },
+                    {
+                      "name": "Access and acknowledgements",
+                      "content": "The report can be access : https://www.mrcmekong.org/resource/ajg6c1 <p>Cambodia: Mr. Sao Samphear National Consultant for Thematic Area of Cambodia Irrigation GIS Database under MRC Council Study</p> <p> Lao PDR: Department of Irrigation (DoI) </p> <p>Thailand: Royal Irrigation Department (RID) </p> <p> Viet Nam: Viet Nam-Highlands: Institute of Water Resources Planning (IWRP),and Viet Nam-Mekong Delta: Southern Institute for Water Resources Planning (SIWRP)</p>"
+                    },
+                    {
+                      "name": "Data source",
+                      "content": " Cambodia: BDP DB 2009, MRCs DB 2001, AIFP DB 2004, and Irrigation project of council study. <p>Lao PDR: AIFP DB 2004, BDP DB 2009, Lao topographic map 1: 100,000, Aerial photos 2011, Google Earth.</p> <p> Thailand: AIP DB 2004, BDP DB 2009, Thailand topographic map 1: 50,000, orthophoto 30 m., Google Earth, and field data collection. </p> <p>Viet Nam: AIFP DB 2004, BDP DB 2009, Vietnam topographic map 1: 50,000, Srepok topographic map 1: 50,000, Sesan topographic map 1: 50,000 and field data collection 2013, and Google Earth.</p>"
+                    }
+                  ],
+                  "infoSectionOrder": [
+                    "Description",
+                    "Dataset reference date",
+                    "PDIES category",
+                    "Disclaimer",
+                    "Access and acknowledgements",
+                    "Data source"
+                  ]
+                }
+              ],
+              "isOpen": false
+	          },
+            {
+              "id": "Mekong Basin Atlas/Economic Dimension/Hydropower",
+              "type": "wms",
+              "name": "Hydropower",
+              "url": "https://geo.mrcmekong.org/geo/mrc/wms",
+              "layers": "mrc:Hydropower_2023",
+              "opacity": 1,
+              "info": [
+                {
+                  "name": "Description",
+                  "content": "In hydropower sector, the MRC is tasked to help ensure that increasing demand for electric energy in the Member Countries is met without causing detrimental effects on the environment or local communities an aim which requires a hydropower strategy that is based on best practices. <p>There are 4 information in this dataset which are : Status, Mean Annual Energy, Installed capacity, and Live Storage</p><p>The data is updated to year 2021</p>"
+                },
+                {
+                  "name": "Dataset reference date",
+                  "content": "Year 2021"
+                },
+                {
+                  "name": "PDIES category",
+                  "content": "Infrastructure"
+                },
+                {
+                  "name": "Disclaimer",
+                  "content": "The Mekong River Commission makes no warranties about the data deliniated and disclaims all responsibility and reliability for all expences, losses, damages and costs which maybe incurred as a result of the data being inaccurate or incomplete in any way and for any reason.<p>The data contained herein do not imply the expression of any opinion whatsoever on the part of the Mekong River Commission concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delineation of its frontiers or boundaries.</p>"
+                },
+                {
+                  "name": "Access and acknowledgements",
+                  "content": "For more information: https://www.mrcmekong.org/our-work/topics/hydropower/"
+                },
+                {
+                  "name": "Data source",
+                  "content": "The information was officially provided by MRC member countries in October 2021 <p>https://portal.mrcmekong.org/hydropower/map</p>"
+                }
+              ],
+              "infoSectionOrder": [
+                "Description",
+                "Dataset reference date",
+                "PDIES category",
+                "Disclaimer",
+                "Access and acknowledgements",
+                "Data source"
+              ]
+            },
+            {
+              "id": "Mekong Basin Atlas/Economic Dimension/RiceProduction",
+              "shareKeys": [
+                "Mekong Basin Atlas/Economic Dimension/RiceProduction"
+              ],
+              "type": "wms",
+              "url": "https://geo.mrcmekong.org/geo/mrc/wms",
+              "layers": "mrc:1_Rice_Production_2020",
+              "name": "Rice Production",
+              "opacity": 1,
+              "info": [
+                {
+                  "name": "Description",
+                  "content": "Production data on rice relate to crops harvested for dry grain only"
+                },
+                {
+                  "name": "Dataset reference date",
+                  "content": "Data layer created date : March 2023"
+                },
+                {
+                  "name": "PDIES category",
+                  "content": "Socio-economy"
+                },
+                {
+                  "name": "Disclaimer",
+                  "content": "The Mekong River Commission makes no warranties about the data deliniated and disclaims all responsibility and reliability for all expences, losses, damages and costs which maybe incurred as a result of the data being inaccurate or incomplete in any way and for any reason.<p>The data contained herein do not imply the expression of any opinion whatsoever on the part of the Mekong River Commission concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delineation of its frontiers or boundaries.</p>"
+                },
+                {
+                  "name": "Access and acknowledgements",
+                  "content": "The data year is a production year, which refers to the period of crop production activity to harvest activity from January 1 to December 31 of the same year"
+                },
+                {
+                  "name": "Data source",
+                  "content": "Cambodia : Province profile report, 2017-2020 <p>Lao PDR : Lao Statistic Bureau (LSB), 2020</p><p>Thailand : Office of Agricultural Economics, Ministry of Agriculture and Cooperatives (1996-2020)</p><p>Vietnam : National Statistics Yearbooks (2000-2020)</p>"
+                }
+              ],
+              "infoSectionOrder": [
+                "Description",
+                "Dataset reference date",
+                "PDIES category",
+                "Disclaimer",
+                "Access and acknowledgements",
+                "Data source"
+              ]
+            }
+
+          ],
+          "isOpen": false
+        },
+        {
+          "id": "Mekong Basin Atlas/Climate Change Dimension",
+          "shareKeys": [
+            "Mekong Basin Atlas/Climate Change Dimension"
+          ],
+          "type": "group",
+          "name": "Climate Change Dimension",
+       
+          "members": [
+                      {
+                        "id": "Mekong Basin Atlas/Climate Change Dimension/Drought",
+                        "shareKeys": [
+                          "Mekong Basin Atlas/Climate Change Dimension/Drought"
+                        ],
+                        "type": "group",
+                        "name": "Drought",
+                     
+                        "members": [
+                          {
+                            "id": "Mekong Basin Atlas/Climate Change Dimension/Drought/Drought risk",
+                            "shareKeys": [
+                              "Mekong Basin Atlas/Climate Change Dimension/Drought/Drought risk"
+                            ],
+                            "type": "wms",
+                            "name": "Drought Risk",
+                            "info": [
+                              {
+                                "name": "Description",
+                                "content": "Drought risk of the LMB is generated through multidimensional factors including drought hazard, exposure, and vulnerability. All the three main indicators - meteorological, hydrological, and agricultural indicators - are used to compute drought hazard with 43 years of historical records. Human population, landcover, and baseline water stress data for 2020 are used to quantify exposure levels within the LMB area. While groundwater potential and areas with irrigation are used to evaluate drought vulnerabilities in the region.<p>Four categories of drought risk are used to measure the risk levels. They are (1) no or mild, (2) mild-moderate, (3) moderate-severe, and (4) severe-extreme.</p>"
+                              },
+                              {
+                                "name": "Dataset reference date",
+                                "content": "Year 2023"
+                              },
+                              {
+                                "name": "PDIES category",
+                                "content": "Flood management and mitigation"
+                              },
+                              {
+                                "name": "Disclaimer",
+                                "content": "The Mekong River Commission makes no warranties about the data deliniated and disclaims all responsibility and reliability for all expences, losses, damages and costs which maybe incurred as a result of the data being inaccurate or incomplete in any way and for any reason.<p>The data contained herein do not imply the expression of any opinion whatsoever on the part of the Mekong River Commission concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delineation of its frontiers or boundaries.</p>"
+                              },
+                              {
+                                "name": "Access and acknowledgements",
+                                "content": "RFDMC, TD, MRCS"
+                              },
+                              {
+                                "name": "Data source",
+                                "content": "RFDMC, TD, MRCS"
+                              }
+                            ],
+                            "infoSectionOrder": [
+                              "Description",
+                              "Dataset reference date",
+                              "PDIES category",
+                              "Disclaimer",
+                              "Access and acknowledgements",
+                              "Data source"
+                            ],
+                            "url": "https://geo.mrcmekong.org/geo/mrc/wms",
+                            "layers": "mrc:Drought Risk",
+                            "opacity": 1,
+                            "isGeoServer": true,
+                            "featureInfoTemplate": {
+                              "template": "<table><tbody><tr><td>Drought risk</td><td>{{#terria.partialByName}}{{PALETTE_INDEX}}{{/terria.partialByName}}</td></tr></tbody></table>",
+                              "partials": {
+                                "1": "No or mild risk",
+                                "2": "Moderate risk",
+                                "3": "Servere risk",
+                                "4": "Extreme risk"
+                              }
+                            }
+                          },
+                          {
+                            "id": "Mekong Basin Atlas/Climate Change Dimension/Drought/SPI",
+                            "shareKeys": [
+                              "Mekong Basin Atlas/Climate Change Dimension/Drought/SPI"
+                            ],
+                            "name": "Standardized Precipitation Index (SPI), 2022",
+                            "type": "wms",
+                            "url": "https://geo.mrcmekong.org/geo/mrc/wms",
+                            "layers": "mrc:spi12_2022_12_30_nowcast",
+                            "opacity":1,
+                            "info": [
+                              {
+                                "name": "Description",
+                                "content": "SPI was generated using observed rainfall satellite called Climate Hazards Group InfraRed Precipitation with Station data (CHIRPS) with over 40 years historical record. The availability of the SPI maps is from 1981 to 2022. The data layer here is represent the most recent year (2022)<p>Resolution: the original resolution of the data is 5km.</p><p>For more information about the product : http://droughtforecast.mrcmekong.org/maps </p>"
+                              },
+                              {
+                                "name": "Dataset reference date",
+                                "content": "Year 1981-2022, data creation on February 2023"
+                              },
+                              {
+                                "name": "PDIES category",
+                                "content": "Flood management and mitigation"
+                              },
+                              {
+                                "name": "Disclaimer",
+                                "content": "The Mekong River Commission makes no warranties about the data deliniated and disclaims all responsibility and reliability for all expences, losses, damages and costs which maybe incurred as a result of the data being inaccurate or incomplete in any way and for any reason.<p>The data contained herein do not imply the expression of any opinion whatsoever on the part of the Mekong River Commission concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delineation of its frontiers or boundaries.</p>"
+                              },
+                              {
+                                "name": "Access and acknowledgements",
+                                "content": "Citation to the paper is adequate if you simply use SPI by MRC"
+                              },
+                              {
+                                "name": "Data source",
+                                "content": "Online data (original data) could be access from:<p> https://www.chc.ucsb.edu/data/chirps <p/><p>The dataset could also found from Google Earth Engine:</p>https://developers.google.com/earth-engine/datasets/catalog/UCSB-CHG_CHIRPS_DAILY#:~:text=Climate%20Hazards%20Group%20InfraRed%20Precipitation%20with%20Station%20data%20(CHIRPS)%20is,analysis%20and%20seasonal%20drought%20monitoring."
+
+                              }
+                            ],
+                            "infoSectionOrder": [
+                              "Description",
+                              "Dataset reference date",
+                              "PDIES category",
+                              "Disclaimer",
+                              "Access and acknowledgements",
+                              "Data source"
+                            ]
+                          },
+                          {
+                            "id": "Mekong Basin Atlas/Climate Change Dimension/Drought/SRI",
+                            "shareKeys": [
+                              "Mekong Basin Atlas/Climate Change Dimension/Drought/SRI"
+                            ],
+                            "name": "Standardized Runoff Index (SRI), 2022",
+                            "type": "wms",
+                            "url": "https://geo.mrcmekong.org/geo/mrc/wms",
+                            "layers": "mrc:sri12_2022_12_30_nowcast",
+                            "opacity":1,
+                            "info": [
+                              {
+                                "name": "Description",
+                                "content": "SRI was generated using runoff dataset as the outputs from the Variable Infiltration Capability (VIC). VIC was operated under the Regional Hydrological Extreme Assessment System (RHEAS) with over 40 years historical record. The availability of the SRI maps is from 1981 to 2022.The data layer here is represent the most recent year (2022) <p>Resolution: the original resolution of the data is 5km.</p><p>For more information about the product : http://droughtforecast.mrcmekong.org/maps </p>"
+                              },
+                              {
+                                "name": "Dataset reference date",
+                                "content": "Year 1981-2022, data creation on February 2023"
+                              },
+                              {
+                                "name": "PDIES category",
+                                "content": "Flood management and mitigation"
+                              },
+                              {
+                                "name": "Disclaimer",
+                                "content": "The Mekong River Commission makes no warranties about the data deliniated and disclaims all responsibility and reliability for all expences, losses, damages and costs which maybe incurred as a result of the data being inaccurate or incomplete in any way and for any reason.<p>The data contained herein do not imply the expression of any opinion whatsoever on the part of the Mekong River Commission concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delineation of its frontiers or boundaries.</p>"
+                              },
+                              {
+                                "name": "Access and acknowledgements",
+                                "content": "Citation to the paper is adequate if you simply use SRI by MRC"
+                              },
+                              {
+                                "name": "Data source",
+                                "content": "MRC RHEAS model"
+
+                              }
+                            ],
+                            "infoSectionOrder": [
+                              "Description",
+                              "Dataset reference date",
+                              "PDIES category",
+                              "Disclaimer",
+                              "Access and acknowledgements",
+                              "Data source"
+                            ]
+                          },
+                          {
+                            "id": "Mekong Basin Atlas/Climate Change Dimension/Drought/SMA",
+                            "shareKeys": [
+                              "Mekong Basin Atlas/Climate Change Dimension/Drought/SMA"
+                            ],
+                            "name": "Soil Moisture Anomaly (SMA), 2022",
+                            "type": "wms",
+                            "url": "https://geo.mrcmekong.org/geo/mrc/wms",
+                            "layers": "mrc:asma_2022_12_30_nowcast",
+                            "opacity":1,
+                            "info": [
+                              {
+                                "name": "Description",
+                                "content": "SMA was generated using top layer of soil moisture (0-10cm) dataset as the outputs from the Variable Infiltration Capability (VIC). VIC was operated under the Regional Hydrological Extreme Assessment System (RHEAS) with over 40 years historical record. The availability of the SMA maps is from 1981 to 2022.The data layer here is represent the most recent year (2022)<p>Resolution: the original resolution of the data is 5km.</p><p>For more information about the product : http://droughtforecast.mrcmekong.org/maps </p>"
+                              },
+                              {
+                                "name": "Dataset reference date",
+                                "content": "Year 1981-2022, data creation on February 2023"
+                              },
+                              {
+                                "name": "PDIES category",
+                                "content": "Flood management and mitigation"
+                              },
+                              {
+                                "name": "Disclaimer",
+                                "content": "The Mekong River Commission makes no warranties about the data deliniated and disclaims all responsibility and reliability for all expences, losses, damages and costs which maybe incurred as a result of the data being inaccurate or incomplete in any way and for any reason.<p>The data contained herein do not imply the expression of any opinion whatsoever on the part of the Mekong River Commission concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delineation of its frontiers or boundaries.</p>"
+                              },
+                              {
+                                "name": "Access and acknowledgements",
+                                "content": "Citation to the paper is adequate if you simply use SMA by MRC"
+                              },
+                              {
+                                "name": "Data source",
+                                "content": "MRC RHEAS model"
+
+                              }
+                            ],
+                            "infoSectionOrder": [
+                              "Description",
+                              "Dataset reference date",
+                              "PDIES category",
+                              "Disclaimer",
+                              "Access and acknowledgements",
+                              "Data source"
+                            ]
+                          },
+                          {
+                            "id": "Mekong Basin Atlas/Climate Change Dimension/Drought/CDI",
+                            "shareKeys": [
+                              "Mekong Basin Atlas/Climate Change Dimension/Drought/CDI"
+                            ],
+                            "name": "Combined Drought Indicator/Index (CDI), 2022",
+                            "type": "wms",
+                            "url": "https://geo.mrcmekong.org/geo/mrc/wms",
+                            "layers": "mrc:cdi_2022_12_30_nowcast",
+                            "opacity":1,
+                            "info": [
+                              {
+                                "name": "Description",
+                                "content": "CDI is an average of all three drought indicator maps including SPI, SRI, and SMA. The availability of the SMA maps is from 1981 to 2022.The data layer here is represent the most recent year (2022)<p>Resolution: the original resolution of the data is 5km.</p><p>For more information about the product : http://droughtforecast.mrcmekong.org/maps </p>"
+                              },
+                              {
+                                "name": "Dataset reference date",
+                                "content": "Year 1981-2022, data creation on February 2023"
+                              },
+                              {
+                                "name": "PDIES category",
+                                "content": "Flood management and mitigation"
+                              },
+                              {
+                                "name": "Disclaimer",
+                                "content": "The Mekong River Commission makes no warranties about the data deliniated and disclaims all responsibility and reliability for all expences, losses, damages and costs which maybe incurred as a result of the data being inaccurate or incomplete in any way and for any reason.<p>The data contained herein do not imply the expression of any opinion whatsoever on the part of the Mekong River Commission concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delineation of its frontiers or boundaries.</p>"
+                              },
+                              {
+                                "name": "Access and acknowledgements",
+                                "content": "Citation to the paper is adequate if you simply use CDI by MRC"
+                              },
+                              {
+                                "name": "Data source",
+                                "content": "MRC RHEAS model"
+
+                              }
+                            ],
+                            "infoSectionOrder": [
+                              "Description",
+                              "Dataset reference date",
+                              "PDIES category",
+                              "Disclaimer",
+                              "Access and acknowledgements",
+                              "Data source"
+                            ]
+                          },
+                          {
+                            "id": "Mekong Basin Atlas/Climate Change Dimension/Drought/Drought Severity SPI",
+                            "shareKeys": [
+                              "Mekong Basin Atlas/Climate Change Dimension/Drought/Drought Severity SPI"
+                            ],
+                            "name": "Drought Severity (SPI 2000-2022)",
+                            "type": "wms",
+                            "url": "https://geo.mrcmekong.org/geo/mrc/wms",
+                            "layers": "mrc:spi12_2000_2022_nowcast",
+                            "opacity":1,
+                            "info": [
+                              {
+                                "name": "Description",
+                                "content": "SPI-based drought severity from 2000 to 2022 was generated through annual SPIs during 2000-2022. <p>Resolution: the original resolution of the data is 5 km.</p><p>Drought classification for SPI-Drought Severity:</p><p>Extreme drought: SPI value less than -0.3  </p><p>Severe drought: -0.3 to -0.2</p><p>Moderate drought: -0.2 to -0.05</p><p>No drought: SPI value more than -0.05</p><p>For more information about the product : http://droughtforecast.mrcmekong.org/maps </p>"
+                              },
+                              {
+                                "name": "Dataset reference date",
+                                "content": "Year 2000-2022, data creation on January 2023"
+                              },
+                              {
+                                "name": "PDIES category",
+                                "content": "Flood management and mitigation"
+                              },
+                              {
+                                "name": "Disclaimer",
+                                "content": "The Mekong River Commission makes no warranties about the data deliniated and disclaims all responsibility and reliability for all expences, losses, damages and costs which maybe incurred as a result of the data being inaccurate or incomplete in any way and for any reason.<p>The data contained herein do not imply the expression of any opinion whatsoever on the part of the Mekong River Commission concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delineation of its frontiers or boundaries.</p>"
+                              },
+                              {
+                                "name": "Access and acknowledgements",
+                                "content": "Citation to the paper is adequate if you simply use SPI by MRC"
+                              },
+                              {
+                                "name": "Data source",
+                                "content": "MRC Drought model"
+
+                              }
+                            ],
+                            "infoSectionOrder": [
+                              "Description",
+                              "Dataset reference date",
+                              "PDIES category",
+                              "Disclaimer",
+                              "Access and acknowledgements",
+                              "Data source"
+                            ]
+                          },
+                          {
+                            "id": "Mekong Basin Atlas/Climate Change Dimension/Drought/Drought Frequency SPI09",
+                            "shareKeys": [
+                              "Mekong Basin Atlas/Climate Change Dimension/Drought/Drought Frequency SPI09"
+                            ],
+                            "name": "Drought Frequency (SPI 2000-2009)",
+                            "type": "wms",
+                            "url": "https://geo.mrcmekong.org/geo/mrc/wms",
+                            "layers": "mrc:spi12_drought_frequency_2000_2009",
+                            "opacity":1,
+                            "info": [
+                              {
+                                "name": "Description",
+                                "content": "SPI-based drought frequency data from 2000 to 2009 were generated based on the number of drought occurrences (SPI value =<-1) through annual SPIs.<p>Resolution: the original resolution of the data is 5 km.</p><p>Drought classification for SPI-Drought Frequency:</p><p>Drought : SPI = <-1 </p>Maximum number of drought occurrence : 7 times"
+                              },
+                              {
+                                "name": "Dataset reference date",
+                                "content": "Year 2000-2009, data creation on January 2023"
+                              },
+                              {
+                                "name": "PDIES category",
+                                "content": "Flood management and mitigation"
+                              },
+                              {
+                                "name": "Disclaimer",
+                                "content": "The Mekong River Commission makes no warranties about the data deliniated and disclaims all responsibility and reliability for all expences, losses, damages and costs which maybe incurred as a result of the data being inaccurate or incomplete in any way and for any reason.<p>The data contained herein do not imply the expression of any opinion whatsoever on the part of the Mekong River Commission concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delineation of its frontiers or boundaries.</p>"
+                              },
+                              {
+                                "name": "Access and acknowledgements",
+                                "content": "Citation to the paper is adequate if you simply use SPI drought frequency by MRC"
+                              },
+                              {
+                                "name": "Data source",
+                                "content": "MRC Drought model"
+
+                              }
+                            ],
+                            "infoSectionOrder": [
+                              "Description",
+                              "Dataset reference date",
+                              "PDIES category",
+                              "Disclaimer",
+                              "Access and acknowledgements",
+                              "Data source"
+                            ]
+                          },
+                          {
+                            "id": "Mekong Basin Atlas/Climate Change Dimension/Drought/Drought Frequency SPI10",
+                            "shareKeys": [
+                              "Mekong Basin Atlas/Climate Change Dimension/Drought/Drought Frequency SPI10"
+                            ],
+                            "name": "Drought Frequency (SPI 2010-2020)",
+                            "type": "wms",
+                            "url": "https://geo.mrcmekong.org/geo/mrc/wms",
+                            "layers": "mrc:spi12_drought_frequency_2010_2020",
+                            "opacity":1,
+                            "info": [
+                              {
+                                "name": "Description",
+                                "content": "SPI-based drought frequency data from 2010 to 2020 were generated based on the number of drought occurrences (SPI value =<-1) through annual SPIs.<p>Resolution: the original resolution of the data is 5 km.</p><p>Drought classification for SPI-Drought Frequency:</p><p>Drought : SPI = <-1 </p>Maximum number of drought occurrence : 7 times"
+                              },
+                              {
+                                "name": "Dataset reference date",
+                                "content": "Year 2000-2009, data creation on January 2023"
+                              },
+                              {
+                                "name": "PDIES category",
+                                "content": "Flood management and mitigation"
+                              },
+                              {
+                                "name": "Disclaimer",
+                                "content": "The Mekong River Commission makes no warranties about the data deliniated and disclaims all responsibility and reliability for all expences, losses, damages and costs which maybe incurred as a result of the data being inaccurate or incomplete in any way and for any reason.<p>The data contained herein do not imply the expression of any opinion whatsoever on the part of the Mekong River Commission concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delineation of its frontiers or boundaries.</p>"
+                              },
+                              {
+                                "name": "Access and acknowledgements",
+                                "content": "Citation to the paper is adequate if you simply use SPI drought frequency by MRC"
+                              },
+                              {
+                                "name": "Data source",
+                                "content": "MRC Drought model"
+
+                              }
+                            ],
+                            "infoSectionOrder": [
+                              "Description",
+                              "Dataset reference date",
+                              "PDIES category",
+                              "Disclaimer",
+                              "Access and acknowledgements",
+                              "Data source"
+                            ]
+                          },
+                          {
+                            "id": "Mekong Basin Atlas/Climate Change Dimension/Drought/Drought Severity SRI",
+                            "shareKeys": [
+                              "Mekong Basin Atlas/Climate Change Dimension/Drought/Drought Severity SRI"
+                            ],
+                            "name": "Drought Severity (SRI 2000-2022)",
+                            "type": "wms",
+                            "url": "https://geo.mrcmekong.org/geo/mrc/wms",
+                            "layers": "mrc:sri_severity_2000_2022",
+                            "opacity":1,
+                            "info": [
+                              {
+                                "name": "Description",
+                                "content": "SRI-based drought severity from 2000 to 2022 was generated through annual SRIs during 2000-2022. <p>Resolution: the original resolution of the data is 5 km.</p><p>Drought classification for SRI-Drought Severity:</p><p>Extreme drought: SRI value less than -0.3  </p><p>Severe drought: -0.3 to -0.2</p><p>Moderate drought: -0.2 to -0.05</p><p>No drought: SRI value more than -0.05</p><p>For more information about the product : http://droughtforecast.mrcmekong.org/maps </p>"
+                              },
+                              {
+                                "name": "Dataset reference date",
+                                "content": "Year 2000-2022, data creation on January 2023"
+                              },
+                              {
+                                "name": "PDIES category",
+                                "content": "Flood management and mitigation"
+                              },
+                              {
+                                "name": "Disclaimer",
+                                "content": "The Mekong River Commission makes no warranties about the data deliniated and disclaims all responsibility and reliability for all expences, losses, damages and costs which maybe incurred as a result of the data being inaccurate or incomplete in any way and for any reason.<p>The data contained herein do not imply the expression of any opinion whatsoever on the part of the Mekong River Commission concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delineation of its frontiers or boundaries.</p>"
+                              },
+                              {
+                                "name": "Access and acknowledgements",
+                                "content": "Citation to the paper is adequate if you simply use SRI by MRC"
+                              },
+                              {
+                                "name": "Data source",
+                                "content": "MRC Drought model"
+
+                              }
+                            ],
+                            "infoSectionOrder": [
+                              "Description",
+                              "Dataset reference date",
+                              "PDIES category",
+                              "Disclaimer",
+                              "Access and acknowledgements",
+                              "Data source"
+                            ]
+                          }
+
+                        ],
+                        "isOpen": false
+                      },
+
+            {
+              "id": "Mekong Basin Atlas/Climate Change Dimension/Rainfall",
+              "shareKeys": [
+                "Mekong Basin Atlas/Climate Change Dimension/Rainfall"
+              ],
+              "name": "Annual Rainfall",
+              "type": "wms",
+              "url": "https://geo.mrcmekong.org/geo/mrc/wms",
+              "layers": "mrc:Rainfall",
+              "opacity":1,
+              "info": [
+                {
+                  "name": "Description",
+                  "content": "Annual rainfall (in mm) is extracted from Soil Water Assessment Tool (SWAT) as a hydrological model using 228 observed rainfall stations across Lower Mekong Basin (LMB). This data is an annual average rainfall from 1985 to 2020 in 680 SWAT subbasins, which does not cover the floodplain areas located at the downstream part of LMB."
+                },
+                {
+                  "name": "Dataset reference date",
+                  "content": "Year 1985-2020, data creation on December 2022"
+                },
+                {
+                  "name": "PDIES category",
+                  "content": "Flood management and mitigation"
+                },
+                {
+                  "name": "Disclaimer",
+                  "content": "The Mekong River Commission makes no warranties about the data deliniated and disclaims all responsibility and reliability for all expences, losses, damages and costs which maybe incurred as a result of the data being inaccurate or incomplete in any way and for any reason.<p>The data contained herein do not imply the expression of any opinion whatsoever on the part of the Mekong River Commission concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delineation of its frontiers or boundaries.</p>"
+                },
+                {
+                  "name": "Access and acknowledgements",
+                  "content": "Citation to the paper for using the MRC data."
+                },
+                {
+                  "name": "Data source",
+                  "content": "SWAT interpolated annual rainfall data under MRC DSF."
+                }
+              ],
+              "infoSectionOrder": [
+                "Description",
+                "Dataset reference date",
+                "PDIES category",
+                "Disclaimer",
+                "Access and acknowledgements",
+                "Data source"
+              ]
+            },
+            {
+              "id": "Mekong Basin Atlas/Climate Change Dimension/Runoff",
+              "shareKeys": [
+                "Mekong Basin Atlas/Climate Change Dimension/Runoff"
+              ],
+              "name": "Annual Runoff",
+              "type": "wms",
+              "url": "https://geo.mrcmekong.org/geo/mrc/wms",
+              "layers": "mrc:Runoff",
+              "opacity":1,
+              "info": [
+                {
+                  "name": "Description",
+                  "content": "Annual runoff or water yield (in mm) is extracted from Soil Water Assessment Tool (SWAT) as a hydrological model using 228 rainfall stations and 39 climatic stations across Lower Mekong Basin (LMB) in associated with other data required by the model. This data is an annual average runoff from 1985 to 2020 in 680 SWAT subbasins, which does not cover the floodplain areas located at the downstream part of LMB."
+                },
+                {
+                  "name": "Dataset reference date",
+                  "content": "Year 1985-2020, data creation on December 2022"
+                },
+                {
+                  "name": "PDIES category",
+                  "content": "Flood management and mitigation"
+                },
+                {
+                  "name": "Disclaimer",
+                  "content": "The Mekong River Commission makes no warranties about the data deliniated and disclaims all responsibility and reliability for all expences, losses, damages and costs which maybe incurred as a result of the data being inaccurate or incomplete in any way and for any reason.<p>The data contained herein do not imply the expression of any opinion whatsoever on the part of the Mekong River Commission concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delineation of its frontiers or boundaries.</p>"
+                },
+                {
+                  "name": "Access and acknowledgements",
+                  "content": "Citation to the paper for using the MRC data."
+                },
+                {
+                  "name": "Data source",
+                  "content": "SWAT interpolated annual rainfall data under MRC DSF."
+                }
+              ],
+              "infoSectionOrder": [
+                "Description",
+                "Dataset reference date",
+                "PDIES category",
+                "Disclaimer",
+                "Access and acknowledgements",
+                "Data source"
+              ]
+            },
+            {
+              "id": "Mekong Basin Atlas/Climate Change Dimension/Flood Year 2000",
+              "shareKeys": [
+                "Mekong Basin Atlas/Climate Change Dimension/Flood Year 2000"
+              ],
+              "name": "Flood Extent year 2000",
+              "type": "wms",
+              "url": "https://geo.mrcmekong.org/geo/mrc/wms",
+              "layers": "mrc:Flood2000_LMB",
+              "opacity":1,
+              "info": [
+                {
+                  "name": "Description",
+                  "content": "Estimated extent of a major flood event. derived from the MIKE11 hydraulic model simulation of the 2000 flood in Cambodia and and VRSAP hydraulic model Vietnam. Also incorporates the maximum flood extent from the 3 radarsat images in 2000. Thailand from surveys and radarsat (2002) images combined Laos from flood surveys"
+                },
+                {
+                  "name": "Dataset reference date",
+                  "content": "Year 2000"
+                },
+                {
+                  "name": "PDIES category",
+                  "content": "Flood management and mitigation"
+                },
+                {
+                  "name": "Disclaimer",
+                  "content": "The Mekong River Commission makes no warranties about the data deliniated and disclaims all responsibility and reliability for all expences, losses, damages and costs which maybe incurred as a result of the data being inaccurate or incomplete in any way and for any reason.<p>The data contained herein do not imply the expression of any opinion whatsoever on the part of the Mekong River Commission concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delineation of its frontiers or boundaries.</p>"
+                },
+                {
+                  "name": "Access and acknowledgements",
+                  "content": "Reference document: https://www.mrcmekong.org/assets/Publications/basin-reports/BDP-Atlas-Final-2011.pdf"
+                },
+                {
+                  "name": "Data source",
+                  "content": "MRC Planing Atlas 2011"
+                }
+              ],
+              "infoSectionOrder": [
+                "Description",
+                "Dataset reference date",
+                "PDIES category",
+                "Disclaimer",
+                "Access and acknowledgements",
+                "Data source"
+              ]
+            },
+            {
+              "id": "Mekong Basin Atlas/Climate Change Dimension/Flood extent 2016-2021",
+              "shareKeys": [
+                "Mekong Basin Atlas/Climate Change Dimension/Flood extent 2016-2021"
+              ],
+              "name": "Flood occurance during 2016-2021",
+              "type": "wms",
+              "url": "https://geo.mrcmekong.org/geo/mrc/wms",
+              "layers": "mrc:Floodraster100m",
+              "opacity":1,
+              "info": [
+                {
+                  "name": "Description",
+                  "content": "Flood extent during 2016-2021, Sentinel1-SAR imagery was use for generated annual flood layer for all 6 years then combine to be flood frequency of the 2016-2021. The layer illustrates the flood extent as well as the frequency ranging from 1-6 times of the flood occurring."
+                },
+                {
+                  "name": "Dataset reference date",
+                  "content": "Year 2016-2021"
+                },
+                {
+                  "name": "PDIES category",
+                  "content": "Flood management and mitigation"
+                },
+                {
+                  "name": "Disclaimer",
+                  "content": "The Mekong River Commission makes no warranties about the data deliniated and disclaims all responsibility and reliability for all expences, losses, damages and costs which maybe incurred as a result of the data being inaccurate or incomplete in any way and for any reason.<p>The data contained herein do not imply the expression of any opinion whatsoever on the part of the Mekong River Commission concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delineation of its frontiers or boundaries.</p>"
+                },
+                {
+                  "name": "Access and acknowledgements",
+                  "content": "Regional Flood and Drought Management Centre (RFDMC), MRCS"
+                },
+                {
+                  "name": "Data source",
+                  "content": "Report on Flood extent and flood assessment in the Lower Mekong Basin, Regional Flood and Drought Management Centre (RFDMC), MRCS"
+                }
+              ],
+              "infoSectionOrder": [
+                "Description",
+                "Dataset reference date",
+                "PDIES category",
+                "Disclaimer",
+                "Access and acknowledgements",
+                "Data source"
+              ]
+            },
+            {
+              "id": "Mekong Basin Atlas/Climate Change Dimension/People affected to flood",
+              "shareKeys": [
+                "Mekong Basin Atlas/Climate Change Dimension/People affected to flood"
+              ],
+              "name": "Estimated people affected to flood",
+              "type": "wms",
+              "url": "https://geo.mrcmekong.org/geo/mrc/wms",
+              "layers": "mrc:Flood People Affected",
+              "opacity":1,
+              "info": [
+                {
+                  "name": "Description",
+                  "content": "The number of people affected was estimated using grieded population dataset from Joint Research Centre (JRC), European Commission. The analysis using the flood extent from the period of year 2016-2022"
+                },
+                {
+                  "name": "Dataset reference date",
+                  "content": "Year 2016-2021"
+                },
+                {
+                  "name": "PDIES category",
+                  "content": "Flood management and mitigation"
+                },
+                {
+                  "name": "Disclaimer",
+                  "content": "The Mekong River Commission makes no warranties about the data deliniated and disclaims all responsibility and reliability for all expences, losses, damages and costs which maybe incurred as a result of the data being inaccurate or incomplete in any way and for any reason.<p>The data contained herein do not imply the expression of any opinion whatsoever on the part of the Mekong River Commission concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delineation of its frontiers or boundaries.</p>"
+                },
+                {
+                  "name": "Access and acknowledgements",
+                  "content": "Population Data: Joint Research Centre (JRC)<p>Flood extent: OCEO, MRCS</p>"
+                },
+                {
+                  "name": "Data source",
+                  "content": "Population data : https://data.jrc.ec.europa.eu/dataset/2ff68a52-5b5b-4a22-8f40-c41da8332cfe"
+                }
+              ],
+              "infoSectionOrder": [
+                "Description",
+                "Dataset reference date",
+                "PDIES category",
+                "Disclaimer",
+                "Access and acknowledgements",
+                "Data source"
+              ]
+            }
+
+           
+
+
+          ],
+          "isOpen": false
+        }
+      ],
+      "isOpen": true
+    }
+  ],
+  "viewerMode": "2d",
+  "baseMaps": {
+"enabledBaseMaps": [
+
+      "basemap-bing-roads",
+      "basemap-bing-aerial",
+      "basemap-bing-aerial-with-labels",
+      "basemap-positron",
+      "basemap-darkmatter",
+      "basemap-black-marble",
+      "basemap-natural-earth-II"
+    ],
+    "defaultBaseMapId": "basemap-bing-aerial-with-labels",
+    "previewBaseMapId": "basemap-bing-aerial-with-labels",
+    "items": [
+      {
+        "item": {
+          "id": "basemap-bing-aerial",
+          "name": "Aerial",
+          "type": "bing-maps",
+          "mapStyle": "Aerial",
+          "opacity": 1.0
+        },
+        "image": "https://mrcgeo.sgp1.digitaloceanspaces.com/satellite.png",
+        "contrastColor": "#ffffff"
+      },
+      {
+        "item": {
+          "id": "basemap-bing-aerial-with-labels",
+          "name": "Aerial with Labels",
+          "type": "bing-maps",
+          "mapStyle": "AerialWithLabelsOnDemand",
+          "opacity": 1.0
+        },
+        "image": "https://mrcgeo.sgp1.digitaloceanspaces.com/satellite-label.png",
+        "contrastColor": "#ffffff"
+      },
+      {
+        "item": {
+          "id": "basemap-bing-roads",
+          "name": "Maps Roads",
+          "type": "bing-maps",
+          "mapStyle": "RoadOnDemand",
+          "opacity": 1.0
+        },
+        "image": "https://mrcgeo.sgp1.digitaloceanspaces.com/Bingmap-roads.png",
+        "contrastColor": "#000000"
+      },
+      {
+        "item": {
+          "id": "basemap-positron",
+          "name": "Positron (Light)",
+          "type": "open-street-map",
+          "url": "https://basemaps.cartocdn.com/light_all/",
+          "attribution":
+          "© <a href='https://www.openstreetmap.org/copyright'>OpenStreetMap</a>, © <a href='https://carto.com/about-carto/'>CARTO</a>",
+          "subdomains": ["a", "b", "c", "d"],
+          "opacity": 1.0
+        },
+        "image": "https://mrcgeo.sgp1.digitaloceanspaces.com/Positron-light.png",
+        "contrastColor": "#000000"
+      },
+      {
+        "item": {
+          "id": "basemap-darkmatter",
+          "name": "Dark Matter",
+          "type": "open-street-map",
+          "url": "https://basemaps.cartocdn.com/dark_all/",
+          "attribution":
+          "© <a href='https://www.openstreetmap.org/copyright'>OpenStreetMap</a>, © <a href='https://carto.com/about-carto/'>CARTO</a>",
+          "subdomains": ["a", "b", "c", "d"],
+          "opacity": 1.0
+        },
+        "image": "https://mrcgeo.sgp1.digitaloceanspaces.com/DarkMatter.png",
+        "contrastColor": "#ffffff"
+      },
+      {
+        "item": {
+          "id": "basemap-natural-earth-II",
+          "name": "Natural Earth II",
+          "type": "url-template-imagery",
+          "url": "https://storage.googleapis.com/terria-datasets-public/basemaps/natural-earth-tiles/{z}/{x}/{reverseY}.png",
+          "attribution":
+          "<a href='https://www.naturalearthdata.com/downloads/10m-raster-data/10m-natural-earth-2/'>Natural Earth II</a> - From Natural Earth. <a href='https://www.naturalearthdata.com/about/terms-of-use/'>Public Domain</a>.",
+          "maximumLevel": 7,
+          "opacity": 1.0
+        },
+        "image": "https://mrcgeo.sgp1.digitaloceanspaces.com/Natural-earth.png",
+        "contrastColor": "#000000"
+      },
+      {
+        "item": {
+          "id": "basemap-black-marble",
+          "name": "NASA Black Marble",
+          "type": "wms",
+          "url": "http://geoserver.nationalmap.nicta.com.au/imagery/nasa-black-marble/wms",
+          "attribution":
+          "<a href='https://earthobservatory.nasa.gov/Features/NightLights'>Black Marble</a> - From NASA's Earth Observatory. <a href='https://earthobservatory.nasa.gov/image-use-policy'>Use Policy</a>.",
+          "layers": "nasa-black-marble:dnb_land_ocean_ice.2012.54000x27000_geo",
+          "opacity": 1.0
+        },
+        "image": "https://mrcgeo.sgp1.digitaloceanspaces.com/BlackMable.png",
+        "contrastColor": "#ffffff"
+      },
+
+
+
+      {
+        "item": {
+          "id": "mrc-mapbox-demo Blue",
+          "type": "mapbox-style",
+          "name": "Mapbox custom Blue",
+          "username": "kittiphong",
+          "styleId": "clnsctk4o00i901p9con71bii",
+          "accessToken": "pk.eyJ1Ijoia2l0dGlwaG9uZyIsImEiOiJjbG5zOHk5cnUxMzMzMnJycmhmYXlpMGh6In0.w3xt6nnE6SXHhLtlv0Si7g"
+        } ,
+        "image": "https://mrcgeo.sgp1.digitaloceanspaces.com/MapBoxBlue.png"
+      },
+      {
+        "item": {
+          "id": "mrc-mapbox-demo Nature",
+          "type": "mapbox-style",
+          "name": "Mapbox custom Nature",
+          "username": "kittiphong",
+          "styleId": "clns9zten00h501qp2ja2h6za",
+          "accessToken": "pk.eyJ1Ijoia2l0dGlwaG9uZyIsImEiOiJjbG5zOHk5cnUxMzMzMnJycmhmYXlpMGh6In0.w3xt6nnE6SXHhLtlv0Si7g"
+        } ,
+        "image": "https://mrcgeo.sgp1.digitaloceanspaces.com/MapboxNature.png"
+      }
+    ]
+  }
+}
+

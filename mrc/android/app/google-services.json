@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "823381830676",
+    "project_id": "mrc-app-fef67",
+    "storage_bucket": "mrc-app-fef67.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:823381830676:android:dc44a891e49e4554618b01",
+        "android_client_info": {
+          "package_name": "org.laos.mrc"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "823381830676-2bnugcnbu3pegl96jjse7dcb836h4b88.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "org.laos.mrc",
+            "certificate_hash": "ce66bea53aa4880ddf05e4e16b2c8c1e896baa6a"
+          }
+        },
+        {
+          "client_id": "823381830676-4qajr7kdbsdrln9ca21t9e93tsmio3nq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCRy6HLglRRXt4iwQ_xIRh_Q8wErUP7zKk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "823381830676-4qajr7kdbsdrln9ca21t9e93tsmio3nq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
